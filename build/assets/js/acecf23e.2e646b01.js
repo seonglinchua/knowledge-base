@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbank_rulebook=self.webpackChunkbank_rulebook||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/knowledge-base/blog","blogTitle":"Blog","authorsListPath":"/knowledge-base/blog/authors"}')}}]);

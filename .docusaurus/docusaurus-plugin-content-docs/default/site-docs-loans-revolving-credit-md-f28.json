@@ -1,0 +1,25 @@
+{
+  "id": "loans/revolving-credit",
+  "title": "Revolving Credit",
+  "description": "Revolving credit is a type of credit that allows the borrower to draw, repay, and redraw funds up to a specified limit.",
+  "source": "@site/docs/loans/revolving-credit.md",
+  "sourceDirName": "loans",
+  "slug": "/loans/revolving-credit",
+  "permalink": "/knowledge-base/docs/loans/revolving-credit",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/loans/revolving-credit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "revolving-credit",
+    "title": "Revolving Credit",
+    "sidebar_label": "Revolving Credit",
+    "slug": "/loans/revolving-credit"
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Term Loan",
+    "permalink": "/knowledge-base/docs/loans/term-loan"
+  }
+}

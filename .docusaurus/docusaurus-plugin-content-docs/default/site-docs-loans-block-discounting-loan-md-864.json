@@ -1,0 +1,29 @@
+{
+  "id": "loans/block-discounting-loan",
+  "title": "Block Discounting Loan",
+  "description": "Block discounting is a trade finance facility where a bank purchases a portfolio of trade receivables or bills from a client at a discount, providing immediate liquidity against future cash flows.",
+  "source": "@site/docs/loans/block-discounting-loan.md",
+  "sourceDirName": "loans",
+  "slug": "/loans/block-discounting-loan",
+  "permalink": "/knowledge-base/docs/loans/block-discounting-loan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/loans/block-discounting-loan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "block-discounting-loan",
+    "title": "Block Discounting Loan",
+    "sidebar_label": "Block Discounting Loan",
+    "slug": "/loans/block-discounting-loan"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Floor Stock Loan",
+    "permalink": "/knowledge-base/docs/loans/floor-stock-loan"
+  },
+  "next": {
+    "title": "Bond Investments",
+    "permalink": "/knowledge-base/docs/investments/bond-investments"
+  }
+}

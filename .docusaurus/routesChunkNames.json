@@ -1,0 +1,184 @@
+{
+  "/knowledge-base/__docusaurus/debug-156": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/__docusaurus/debug/config-529": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/__docusaurus/debug/content-d5f": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    },
+    "__props": "__props---knowledge-base-docusaurus-debug-contentf-35-a41"
+  },
+  "/knowledge-base/__docusaurus/debug/globalData-69e": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/__docusaurus/debug/metadata-9cf": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/__docusaurus/debug/registry-b4f": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/__docusaurus/debug/routes-84a": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docusaurus-debugb-38-56a"
+    }
+  },
+  "/knowledge-base/markdown-page-168": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---knowledge-base-markdown-pagea-74-8f4"
+    },
+    "content": "content---knowledge-base-markdown-page-393-9d2"
+  },
+  "/knowledge-base/docs-fb9": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---knowledge-base-docsaba-17e"
+    }
+  },
+  "/knowledge-base/docs-156": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---knowledge-base-docsb-09-f65"
+  },
+  "/knowledge-base/docs-3b9": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/knowledge-base/docs/intro-9dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-intro-0-e-3-3ee"
+  },
+  "/knowledge-base/docs/investments/bond-investments-0c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-investments-bond-investments-817-f31"
+  },
+  "/knowledge-base/docs/investments/structured-products-657": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-investments-structured-productsd-03-650"
+  },
+  "/knowledge-base/docs/investments/wealth-management-899": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-investments-wealth-management-4-b-6-3d4"
+  },
+  "/knowledge-base/docs/loans/block-discounting-loan-f37": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-loans-block-discounting-loan-864-da1"
+  },
+  "/knowledge-base/docs/loans/floor-stock-loan-294": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-loans-floor-stock-loanb-5-e-2be"
+  },
+  "/knowledge-base/docs/loans/revolving-credit-caf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-loans-revolving-creditf-28-396"
+  },
+  "/knowledge-base/docs/loans/term-loan-950": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-loans-term-loanf-49-3b6"
+  },
+  "/knowledge-base/docs/operations/compliance-checks-600": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-operations-compliance-checkseae-5ba"
+  },
+  "/knowledge-base/docs/operations/loan-ops-e42": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-operations-loan-opsf-71-3cc"
+  },
+  "/knowledge-base/docs/operations/rm-process-df5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-operations-rm-processb-49-966"
+  },
+  "/knowledge-base/docs/payments/fast-552": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-payments-fasta-92-801"
+  },
+  "/knowledge-base/docs/payments/giro-a73": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-payments-giroe-41-bf0"
+  },
+  "/knowledge-base/docs/payments/swift-mt103-b57": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-payments-swift-mt-103-c-50-656"
+  },
+  "/knowledge-base/docs/payments/swift-mx-pacs008-cf8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-payments-swift-mx-pacs-0089-bb-498"
+  },
+  "/knowledge-base/docs/reference/formulas-08e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-reference-formulasf-6-f-4ff"
+  },
+  "/knowledge-base/docs/reference/glossary-f8c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-reference-glossary-846-1f9"
+  },
+  "/knowledge-base/docs/treasury-ops/fx-deals-bd6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-treasury-ops-fx-deals-937-9fe"
+  },
+  "/knowledge-base/docs/treasury-ops/mm-deals-b21": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-treasury-ops-mm-deals-482-c37"
+  },
+  "/knowledge-base/docs/treasury-ops/repo-deals-4f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-treasury-ops-repo-deals-190-14f"
+  },
+  "/knowledge-base/docs/tutorial-basics/congratulations-881": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-congratulations-822-81d"
+  },
+  "/knowledge-base/docs/tutorial-basics/create-a-blog-post-811": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-create-a-blog-post-533-13a"
+  },
+  "/knowledge-base/docs/tutorial-basics/create-a-document-b4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-create-a-document-1-e-4-be8"
+  },
+  "/knowledge-base/docs/tutorial-basics/create-a-page-7f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-create-a-page-5-c-8-70b"
+  },
+  "/knowledge-base/docs/tutorial-basics/deploy-your-site-7e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-deploy-your-sitef-55-aaa"
+  },
+  "/knowledge-base/docs/tutorial-basics/markdown-features-2d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-basics-markdown-features-18-c-bd0"
+  },
+  "/knowledge-base/docs/tutorial-extras/manage-docs-versions-b0f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-extras-manage-docs-versionsdff-060"
+  },
+  "/knowledge-base/docs/tutorial-extras/translate-your-site-c22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---knowledge-base-docs-tutorial-extras-translate-your-sitee-44-869"
+  },
+  "/knowledge-base/-f5f": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---knowledge-base-markdown-pagea-74-8f4"
+    },
+    "config": "config---knowledge-base-5-e-9-d12"
+  }
+}

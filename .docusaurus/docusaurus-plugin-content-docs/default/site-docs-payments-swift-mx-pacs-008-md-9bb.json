@@ -1,0 +1,24 @@
+{
+  "id": "payments/swift-mx-pacs008",
+  "title": "SWIFT MX pacs.008",
+  "description": "",
+  "source": "@site/docs/payments/swift-mx-pacs008.md",
+  "sourceDirName": "payments",
+  "slug": "/payments/swift-mx-pacs008",
+  "permalink": "/knowledge-base/docs/payments/swift-mx-pacs008",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/payments/swift-mx-pacs008.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "SWIFT MT103",
+    "permalink": "/knowledge-base/docs/payments/swift-mt103"
+  },
+  "next": {
+    "title": "FAST Payment",
+    "permalink": "/knowledge-base/docs/payments/fast"
+  }
+}

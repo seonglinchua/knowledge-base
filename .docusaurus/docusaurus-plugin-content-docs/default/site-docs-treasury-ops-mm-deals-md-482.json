@@ -1,0 +1,24 @@
+{
+  "id": "treasury-ops/mm-deals",
+  "title": "Money Market Deals",
+  "description": "",
+  "source": "@site/docs/treasury-ops/mm-deals.md",
+  "sourceDirName": "treasury-ops",
+  "slug": "/treasury-ops/mm-deals",
+  "permalink": "/knowledge-base/docs/treasury-ops/mm-deals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/treasury-ops/mm-deals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "FX Deals",
+    "permalink": "/knowledge-base/docs/treasury-ops/fx-deals"
+  },
+  "next": {
+    "title": "Repo Deals",
+    "permalink": "/knowledge-base/docs/treasury-ops/repo-deals"
+  }
+}

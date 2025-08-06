@@ -1,0 +1,29 @@
+{
+  "id": "loans/floor-stock-loan",
+  "title": "Floor Stock Loan",
+  "description": "A floor stock loan is a specialized financing facility that allows dealers and retailers to purchase inventory from manufacturers, with the inventory serving as collateral for the loan.",
+  "source": "@site/docs/loans/floor-stock-loan.md",
+  "sourceDirName": "loans",
+  "slug": "/loans/floor-stock-loan",
+  "permalink": "/knowledge-base/docs/loans/floor-stock-loan",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/loans/floor-stock-loan.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "floor-stock-loan",
+    "title": "Floor Stock Loan",
+    "sidebar_label": "Floor Stock Loan",
+    "slug": "/loans/floor-stock-loan"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Term Loan",
+    "permalink": "/knowledge-base/docs/loans/term-loan"
+  },
+  "next": {
+    "title": "Block Discounting Loan",
+    "permalink": "/knowledge-base/docs/loans/block-discounting-loan"
+  }
+}

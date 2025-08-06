@@ -1,0 +1,159 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/knowledge-base/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/knowledge-base/docs",
+          "mainDocId": "loans/revolving-credit",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/knowledge-base/docs/intro"
+            },
+            {
+              "id": "investments/bond-investments",
+              "path": "/knowledge-base/docs/investments/bond-investments",
+              "sidebar": "docs"
+            },
+            {
+              "id": "investments/structured-products",
+              "path": "/knowledge-base/docs/investments/structured-products",
+              "sidebar": "docs"
+            },
+            {
+              "id": "investments/wealth-management",
+              "path": "/knowledge-base/docs/investments/wealth-management",
+              "sidebar": "docs"
+            },
+            {
+              "id": "loans/block-discounting-loan",
+              "path": "/knowledge-base/docs/loans/block-discounting-loan",
+              "sidebar": "docs"
+            },
+            {
+              "id": "loans/floor-stock-loan",
+              "path": "/knowledge-base/docs/loans/floor-stock-loan",
+              "sidebar": "docs"
+            },
+            {
+              "id": "loans/revolving-credit",
+              "path": "/knowledge-base/docs/loans/revolving-credit",
+              "sidebar": "docs"
+            },
+            {
+              "id": "loans/term-loan",
+              "path": "/knowledge-base/docs/loans/term-loan",
+              "sidebar": "docs"
+            },
+            {
+              "id": "operations/compliance-checks",
+              "path": "/knowledge-base/docs/operations/compliance-checks",
+              "sidebar": "docs"
+            },
+            {
+              "id": "operations/loan-ops",
+              "path": "/knowledge-base/docs/operations/loan-ops",
+              "sidebar": "docs"
+            },
+            {
+              "id": "operations/rm-process",
+              "path": "/knowledge-base/docs/operations/rm-process",
+              "sidebar": "docs"
+            },
+            {
+              "id": "payments/fast",
+              "path": "/knowledge-base/docs/payments/fast",
+              "sidebar": "docs"
+            },
+            {
+              "id": "payments/giro",
+              "path": "/knowledge-base/docs/payments/giro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "payments/swift-mt103",
+              "path": "/knowledge-base/docs/payments/swift-mt103",
+              "sidebar": "docs"
+            },
+            {
+              "id": "payments/swift-mx-pacs008",
+              "path": "/knowledge-base/docs/payments/swift-mx-pacs008",
+              "sidebar": "docs"
+            },
+            {
+              "id": "reference/formulas",
+              "path": "/knowledge-base/docs/reference/formulas",
+              "sidebar": "docs"
+            },
+            {
+              "id": "reference/glossary",
+              "path": "/knowledge-base/docs/reference/glossary",
+              "sidebar": "docs"
+            },
+            {
+              "id": "treasury-ops/fx-deals",
+              "path": "/knowledge-base/docs/treasury-ops/fx-deals",
+              "sidebar": "docs"
+            },
+            {
+              "id": "treasury-ops/mm-deals",
+              "path": "/knowledge-base/docs/treasury-ops/mm-deals",
+              "sidebar": "docs"
+            },
+            {
+              "id": "treasury-ops/repo-deals",
+              "path": "/knowledge-base/docs/treasury-ops/repo-deals",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/knowledge-base/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/knowledge-base/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/knowledge-base/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/knowledge-base/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/knowledge-base/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/knowledge-base/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/knowledge-base/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/knowledge-base/docs/tutorial-extras/translate-your-site"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/knowledge-base/docs/loans/revolving-credit",
+                "label": "loans/revolving-credit"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

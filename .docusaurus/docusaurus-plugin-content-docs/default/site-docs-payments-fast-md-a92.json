@@ -1,0 +1,24 @@
+{
+  "id": "payments/fast",
+  "title": "FAST Payment",
+  "description": "",
+  "source": "@site/docs/payments/fast.md",
+  "sourceDirName": "payments",
+  "slug": "/payments/fast",
+  "permalink": "/knowledge-base/docs/payments/fast",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/seonglinchua/knowledge-base/tree/main/docs/payments/fast.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "previous": {
+    "title": "SWIFT MX pacs.008",
+    "permalink": "/knowledge-base/docs/payments/swift-mx-pacs008"
+  },
+  "next": {
+    "title": "GIRO",
+    "permalink": "/knowledge-base/docs/payments/giro"
+  }
+}

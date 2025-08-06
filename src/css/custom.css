@@ -1,0 +1,83 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #dbeafe;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #3b82f6;
+  --ifm-color-primary-darker: #2563eb;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #93c5fd;
+  --ifm-color-primary-lighter: #bfdbfe;
+  --ifm-color-primary-lightest: #dbeafe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Improvements */
+.footer {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  border-top: 3px solid var(--ifm-color-primary);
+}
+
+.footer__title {
+  font-weight: 700 !important;
+  color: #f1f5f9 !important;
+  margin-bottom: 1rem !important;
+}
+
+.footer__item {
+  margin-bottom: 0.5rem;
+}
+
+.footer__link-item {
+  color: #cbd5e1 !important;
+  transition: all 0.2s ease !important;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-light) !important;
+  text-decoration: none !important;
+  transform: translateX(4px);
+}
+
+.footer__bottom {
+  border-top: 1px solid #475569;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Button Improvements */
+.button {
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button--secondary {
+  background: #ffffff;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+}

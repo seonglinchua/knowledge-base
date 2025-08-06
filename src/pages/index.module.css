@@ -1,0 +1,121 @@
+.heroBanner {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.heroBanner > .container {
+  position: relative;
+  z-index: 2;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin: 1.5rem auto 2.5rem;
+  max-width: 600px;
+  line-height: 1.6;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.buttons .button {
+  margin: 0 0.5rem;
+  padding: 0.875rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.buttons .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, #f8fafc, #ffffff);
+}
+
+.featureCard {
+  height: 100%;
+  padding: 2.5rem 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 2rem;
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  border-color: #3b82f6;
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1e40af;
+  text-align: center;
+}
+
+.featureCard p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #475569;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .heroBanner {
+    padding: 4rem 1rem;
+  }
+  
+  .features {
+    padding: 3rem 0;
+  }
+  
+  .featureCard {
+    margin-bottom: 1.5rem;
+  }
+}

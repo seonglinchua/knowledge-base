@@ -42,10 +42,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // Edit this page links point to the repository
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/seonglinchua/knowledge-base/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -53,10 +52,8 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/seonglinchua/knowledge-base/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -84,7 +81,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'docs',
           position: 'left',
-          label: '� Documentation',
+          label: '📚 Documentation',
         },
         {
           type: 'dropdown',
@@ -133,7 +130,7 @@ const config = {
             { label: 'Glossary', to: '/docs/reference/glossary' },
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/nezha-system/bank-rulebook',
+              href: 'https://github.com/seonglinchua/knowledge-base',
             },
           ],
         },

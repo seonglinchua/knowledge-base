@@ -47,5 +47,3 @@ Interest = Principal × Rate × Days / 365
 - Monthly compliance report to risk team
 
 ---
-
-📘 [Back to Loans Overview](../README.md)

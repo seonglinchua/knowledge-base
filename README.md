@@ -1,41 +1,41 @@
-# Website
+# Banking Operations Knowledge Base
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+An internal reference site covering banking products, processes, and operational workflows — built with [Docusaurus v3](https://docusaurus.io/) and deployed to GitHub Pages.
 
-## Installation
+**Live site:** https://seonglinchua.github.io/knowledge-base/
 
-```bash
-yarn
-```
+---
+
+## Contents
+
+| Section | Topics |
+|---|---|
+| **Loans** | Term Loan, Revolving Credit, Floor Stock Loan, Block Discounting |
+| **Investments** | Bond Investments, Structured Products, Wealth Management |
+| **Payments** | FAST, GIRO, SWIFT MT103, SWIFT MX pacs.008 |
+| **Treasury Operations** | FX Deals, Money Market Deals, Repo Deals |
+| **Operations** | RM Process, Loan Ops, Compliance Checks |
+| **Reference** | Formula Reference, Glossary |
+
+---
 
 ## Local Development
 
 ```bash
-yarn start
+npm install
+npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Opens a local dev server at `http://localhost:3000/knowledge-base/`. Most changes are reflected live without restarting.
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static output into the `build/` directory.
 
 ## Deployment
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Deployment is automatic. Pushing to `main` triggers a GitHub Actions workflow that builds and publishes the site to GitHub Pages — no manual steps required.

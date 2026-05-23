@@ -33,6 +33,8 @@ const sidebars = {
         'investments/bond-investments',
         'investments/structured-products',
         'investments/wealth-management',
+        'investments/equities',
+        'investments/unit-trusts',
       ],
     },
     {
@@ -43,6 +45,7 @@ const sidebars = {
         'payments/swift-mx-pacs008',
         'payments/fast',
         'payments/giro',
+        'payments/paynow',
       ],
     },
     {
@@ -52,6 +55,17 @@ const sidebars = {
         'treasury-ops/fx-deals',
         'treasury-ops/mm-deals',
         'treasury-ops/repo-deals',
+        'treasury-ops/alm',
+        'treasury-ops/intraday-liquidity',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Trade Finance',
+      items: [
+        'trade-finance/letters-of-credit',
+        'trade-finance/trust-receipts',
+        'trade-finance/bank-guarantees',
       ],
     },
     {
@@ -61,6 +75,8 @@ const sidebars = {
         'operations/rm-process',
         'operations/loan-ops',
         'operations/compliance-checks',
+        'operations/complaints',
+        'operations/bcp-dr',
       ],
     },
     {

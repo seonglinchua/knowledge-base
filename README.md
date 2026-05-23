@@ -11,10 +11,11 @@ An internal reference site covering banking products, processes, and operational
 | Section | Topics |
 |---|---|
 | **Loans** | Term Loan, Revolving Credit, Floor Stock Loan, Block Discounting |
-| **Investments** | Bond Investments, Structured Products, Wealth Management |
-| **Payments** | FAST, GIRO, SWIFT MT103, SWIFT MX pacs.008 |
-| **Treasury Operations** | FX Deals, Money Market Deals, Repo Deals |
-| **Operations** | RM Process, Loan Ops, Compliance Checks |
+| **Investments** | Bond Investments, Structured Products, Wealth Management, Equities, Unit Trusts & Funds |
+| **Payments** | FAST, GIRO, SWIFT MT103, SWIFT MX pacs.008, PayNow |
+| **Treasury Operations** | FX Deals, Money Market Deals, Repo Deals, ALM, Intraday Liquidity |
+| **Trade Finance** | Letters of Credit, Trust Receipts, Bank Guarantees |
+| **Operations** | RM Process, Loan Ops, Compliance Checks, Complaints & Grievance, BCP & DR |
 | **Reference** | Formula Reference, Glossary |
 
 ---

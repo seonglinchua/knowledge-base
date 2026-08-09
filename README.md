@@ -1,6 +1,6 @@
 # Banking Operations Knowledge Base
 
-An internal reference site covering banking products, processes, and operational workflows — built with [Docusaurus v3](https://docusaurus.io/) and deployed to GitHub Pages.
+A reference site covering banking products, processes, and operational workflows — built with [Docusaurus v3](https://docusaurus.io/) and deployed to GitHub Pages.
 
 **Live site:** https://seonglinchua.github.io/knowledge-base/
 

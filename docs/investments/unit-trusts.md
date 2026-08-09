@@ -65,10 +65,12 @@ NAV Per Unit = (500,000,000 - 5,000,000) / 250,000,000 = SGD 1.98
 ```
 Units = Investment Amount / (NAV + Front-End Load)
 
-Example: Invest SGD 10,000, NAV = SGD 1.98, front-end load = 3%
+Illustrative example using an offer price that adds a 3% sales charge to NAV: invest SGD 10,000, NAV = SGD 1.98
 Offer Price = 1.98 x 1.03 = SGD 2.0394
 Units allocated = 10,000 / 2.0394 = 4,903.4 units
 ```
+
+Some funds instead deduct the sales charge from the subscription amount. Use the prospectus and transaction terms for the actual pricing method.
 
 **Redemption Proceeds**
 ```
@@ -92,10 +94,10 @@ Banks offer monthly automated contributions into selected funds:
 
 ## 📋 Compliance & Controls
 
-- Funds must be authorised by MAS under the Securities and Futures Act (SFA) before distribution
-- Client suitability: CKA/CAR required for complex or non-vanilla funds
+- Collective investment schemes offered in Singapore must fall within the applicable authorised, recognised, restricted or exempt offering framework
+- CKA or CAR and suitability requirements applied where required for the client, service and product
 - Product Highlights Sheet (PHS) and fund prospectus must be provided before subscription
-- Trailer fees and distribution charges disclosed under MAS FAA-N16 (fair dealing)
+- Fees, charges, rebates and conflicts disclosed under the applicable conduct and fair-dealing requirements
 - Annual portfolio reviews for wealth clients to ensure continued suitability
 - AML checks on subscription proceeds; source of funds may be required for large amounts
 - Switching between funds subject to same suitability checks as new subscription

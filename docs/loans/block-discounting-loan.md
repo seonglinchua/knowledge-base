@@ -7,53 +7,58 @@ slug: /loans/block-discounting-loan
 
 # Block Discounting Loan
 
-Block discounting is a trade finance facility where a bank purchases a portfolio of trade receivables or bills from a client at a discount, providing immediate liquidity against future cash flows.
+Block discounting is a financing arrangement under which a lender advances funds against a portfolio of eligible receivables or instalment contracts. The legal structure, assignment mechanics, collection responsibilities, and recourse terms depend on the facility agreement.
 
-## 📄 Key Characteristics
+## Key Characteristics
 
-- Purchase of multiple receivables/bills in a single transaction.
-- Immediate liquidity against future receivables.
-- Risk assessment based on debtor creditworthiness.
-- Typically without recourse to the seller (non-recourse factoring).
-- Commonly used for export receivables and domestic trade bills.
+- The facility covers a defined portfolio of eligible receivables or contracts.
+- It provides liquidity against future customer payments.
+- Credit assessment considers the originator, underlying debtors, portfolio quality, and concentration risk.
+- The facility may be structured with or without recourse, subject to the agreement.
+- The lender may require assignment of receivables and control over collection proceeds.
 
-## 🧾 Common Products
+## Common Structures
 
-| Product Name              | Description                                      |
-|---------------------------|--------------------------------------------------|
-| Export Bills Discounting | Foreign currency receivables from export sales. |
-| Domestic Bills Purchase   | Local currency trade bills and invoices.        |
-| Supply Chain Finance      | Vendor financing through approved buyer programs.|
-| Receivables Purchase      | Corporate receivables portfolio acquisition.     |
+| Structure | Description |
+|---|---|
+| Receivables-backed financing | Provides funding against an eligible receivables portfolio. |
+| Instalment-contract financing | Provides funding against a pool of customer instalment contracts. |
+| Bills discounting | Provides funding against eligible trade bills before maturity. |
+| Receivables purchase | Transfers eligible receivables under agreed purchase and recourse terms. |
 
-## 🛠️ Operational Workflow
+## Operational Workflow
 
-1. Client submits receivables portfolio for evaluation
-2. Credit assessment of underlying debtors/buyers
-3. Due diligence on trade documentation and invoices
-4. Discount rate determination based on risk assessment
-5. Legal documentation and receivables assignment
-6. Fund disbursement to client account
-7. Collection management and settlement monitoring
+1. Receive the proposed receivables portfolio and supporting data.
+2. Assess the originator, underlying debtors, portfolio quality, and concentration risk.
+3. Verify the eligibility of receivables and supporting contracts or invoices.
+4. Determine the advance rate, pricing, reserves, and recourse terms.
+5. Complete the facility documentation and any required assignment or security arrangements.
+6. Disburse the approved amount in accordance with the facility terms.
+7. Monitor collections, delinquencies, dilution, disputes, and settlement.
 
-## 🧮 Example Calculation
+## Example Calculation
 
-**Scenario**: Block discounting of SGD 1,000,000 receivables portfolio with 90-day maturity.
+**Scenario:** A lender discounts an eligible SGD 1,000,000 receivables portfolio for 90 days at an annual discount rate of 8%, using an ACT/365 day-count convention. This simplified example excludes fees, reserves, and credit adjustments.
 
-Discount Rate: 8% per annum
-Discount Amount = Principal × Rate × Days / 365
-= 1,000,000 × 8% × 90 / 365
-≈ SGD 19,726
+$$
+\text{Discount amount}
+= 1{,}000{,}000 \times 0.08 \times \frac{90}{365}
+\approx \text{SGD }19{,}726.03
+$$
 
-**Net Proceeds** = 1,000,000 - 19,726 = **SGD 980,274**
+$$
+\text{Net proceeds}
+= 1{,}000{,}000 - 19{,}726.03
+= \text{SGD }980{,}273.97
+$$
 
-## 📋 Compliance & Monitoring
+## Compliance and Monitoring
 
-- Daily collection tracking and aging analysis
-- Debtor concentration risk monitoring
-- Regular portfolio quality assessment
-- Dispute resolution and collection management
-- Monthly portfolio performance reporting
-- Regulatory compliance for trade finance limits
+- Track collections and perform receivables-ageing analysis.
+- Monitor debtor and sector concentration risk.
+- Assess portfolio quality, delinquency, and dilution regularly.
+- Manage disputes, collections, and ineligible receivables in accordance with the facility terms.
+- Report portfolio performance at the agreed frequency.
+- Monitor applicable credit, concentration, and exposure limits under bank policy and regulatory requirements.
 
 ---

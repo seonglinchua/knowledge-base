@@ -67,7 +67,7 @@ A = P × (1 + r/n)^(n×t)
 DSCR = Net Operating Income / Total Annual Debt Service
 ```
 
-Minimum acceptable: **1.25x**. Values below 1.0x mean the borrower cannot cover debt from operating income.
+An acceptable threshold is set by the lender and facility terms; 1.25× is a common illustrative covenant. A value below 1.0× indicates that the defined income measure does not cover the defined debt service.
 
 ---
 
@@ -114,7 +114,7 @@ Current Yield (%) = (Annual Coupon / Market Price) × 100
 Duration = Σ [ t × PV(Cash Flow at t) ] / Bond Price
 ```
 
-**Interpretation**: Duration of 5 years means the bond price changes ~5% for every 1% change in yield.
+**Interpretation**: Macaulay duration is a weighted-average timing measure. Modified duration, not Macaulay duration alone, is used to approximate price sensitivity to a small yield change.
 
 ---
 
@@ -143,14 +143,14 @@ PV01 = Modified Duration × Portfolio Value × 0.0001
 ### FX Forward Rate
 
 ```
-Forward Rate = Spot Rate × (1 + r_quote × t/360) / (1 + r_base × t/360)
+Forward Rate = Spot Rate × (1 + r_quote × year fraction) / (1 + r_base × year fraction)
 ```
 
 | Variable | Description |
 |---|---|
 | r_quote | Interest rate of the quote currency |
 | r_base | Interest rate of the base currency |
-| t | Days to maturity |
+| year fraction | Time to maturity calculated using the applicable day-count convention for each currency |
 
 **Example**: USD/SGD spot = 1.3450, USD rate = 5.35%, SGD rate = 3.20%, 90 days → Forward ≈ 1.3378
 
@@ -159,10 +159,10 @@ Forward Rate = Spot Rate × (1 + r_quote × t/360) / (1 + r_base × t/360)
 ### Forward Points
 
 ```
-Forward Points = Spot × (r_quote − r_base) × (t / 360)
+Forward Points ≈ Spot × (r_quote − r_base) × year fraction
 ```
 
-Positive forward points → quote currency at premium. Negative → quote currency at discount.
+For a quote expressed as units of quote currency per unit of base currency, positive points increase the forward quotation and negative points decrease it. Always state the currency quotation and day-count conventions.
 
 ---
 
@@ -184,13 +184,13 @@ Used when a direct quote between two currencies is unavailable; derived via a co
 Interest = P × r × (t / 365)
 ```
 
-### Interbank Interest — USD / EUR (Act/360)
+### Interbank Interest — Common Act/360 Convention
 
 ```
 Interest = P × r × (t / 360)
 ```
 
-**Example**: USD 10,000,000 at 5.10% for 30 days → Interest = USD 42,500
+**Example**: USD 10,000,000 at 5.10% for 30 days on Act/360 → Interest = USD 42,500. Confirm the currency, product and contract convention before applying a basis.
 
 ---
 
@@ -217,13 +217,13 @@ Collateral Market Value = Cash Lent / (1 − Haircut %)
 ### Liquidity Coverage Ratio (LCR)
 
 ```
-LCR = Stock of HQLA / Total Net Cash Outflows (30-day stress) ≥ 100%
+LCR = Stock of HQLA / Total Net Cash Outflows (30-day stress)
 ```
 
 ### Net Stable Funding Ratio (NSFR)
 
 ```
-NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) ≥ 100%
+NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF)
 ```
 
 ---
@@ -242,7 +242,7 @@ Gearing = Total Debt / Total Equity
 ICR = EBIT / Interest Expense
 ```
 
-Minimum acceptable: typically **2.0x**. Measures ability to service interest from operating earnings.
+The acceptable threshold depends on the borrower, industry and credit policy. The ratio measures the defined earnings available to cover interest expense.
 
 ---
 

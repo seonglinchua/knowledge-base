@@ -1,5 +1,7 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,7 +27,11 @@ const config = {
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -35,6 +41,14 @@ const config = {
     locales: ['en'],
   },
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
+      type: 'text/css',
+      crossorigin: 'anonymous',
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -42,9 +56,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Edit this page links point to the repository
           editUrl:
             'https://github.com/seonglinchua/knowledge-base/tree/main/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {
@@ -60,6 +75,7 @@ const config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Knowledge Base',
+      hideOnScroll: true,
       logo: {
         alt: 'Bank Rulebook Logo',
         src: 'img/kb-logo.svg',
@@ -69,53 +85,65 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'docs',
           position: 'left',
-          label: '📚 Documentation',
+          label: 'Documentation',
         },
         {
           type: 'dropdown',
-          label: '📂 Quick Links',
+          label: 'Topics',
           position: 'left',
           items: [
-            { label: 'Loans', to: '/docs/loans/revolving-credit' },
-            { label: 'Payments', to: '/docs/payments/swift-mt103' },
-            { label: 'Treasury', to: '/docs/treasury-ops/fx-deals' },
+            { label: 'Loans & Credit', to: '/docs/loans' },
+            { label: 'Payments', to: '/docs/payments' },
+            { label: 'Treasury Operations', to: '/docs/treasury-operations' },
+            { label: 'Trade Finance', to: '/docs/trade-finance' },
+            { label: 'Investments', to: '/docs/investments' },
+            { label: 'Operations', to: '/docs/operations' },
+            { label: 'Reference', to: '/docs/reference' },
           ],
         },
         {
           to: '/docs/reference/glossary',
-          label: '📖 Glossary',
+          label: 'Glossary',
           position: 'right',
         },
-        // {
-        //   href: 'https://github.com/nezha-system/bank-rulebook',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: '📌 Quick Access',
+          title: 'Lending & Trade',
           items: [
-            { label: 'Loans', to: '/docs/loans/revolving-credit' },
-            { label: 'Payments', to: '/docs/payments/swift-mt103' },
-            { label: 'Treasury', to: '/docs/treasury-ops/fx-deals' },
+            { label: 'Loans & Credit Overview', to: '/docs/loans' },
+            { label: 'Trade Finance Overview', to: '/docs/trade-finance' },
+            { label: 'Revolving Credit', to: '/docs/loans/revolving-credit' },
+            { label: 'Letters of Credit', to: '/docs/trade-finance/letters-of-credit' },
           ],
         },
         {
-          title: '🏢 Operations',
+          title: 'Payments & Treasury',
           items: [
-            { label: 'RM Process', to: '/docs/operations/rm-process' },
-            { label: 'Loan Ops', to: '/docs/operations/loan-ops' },
+            { label: 'Payments Overview', to: '/docs/payments' },
+            { label: 'Treasury Operations Overview', to: '/docs/treasury-operations' },
+            { label: 'FAST', to: '/docs/payments/fast' },
+            { label: 'FX Deals', to: '/docs/treasury-ops/fx-deals' },
+          ],
+        },
+        {
+          title: 'Investments & Operations',
+          items: [
+            { label: 'Investments Overview', to: '/docs/investments' },
+            { label: 'Operations Overview', to: '/docs/operations' },
+            { label: 'Bond Investments', to: '/docs/investments/bond-investments' },
             { label: 'Compliance Checks', to: '/docs/operations/compliance-checks' },
           ],
         },
         {
-          title: '📚 Reference',
+          title: 'Reference & Resources',
           items: [
+            { label: 'Reference Overview', to: '/docs/reference' },
             { label: 'Glossary', to: '/docs/reference/glossary' },
+            { label: 'Formulas', to: '/docs/reference/formulas' },
             {
               label: 'GitHub Repository',
               href: 'https://github.com/seonglinchua/knowledge-base',
@@ -130,7 +158,7 @@ const config = {
       // },
       copyright: `
         <strong>© ${new Date().getFullYear()} Knowledge Base</strong>. All rights reserved.
-        <br />Crafted with ❤️ using <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.
+        <br />Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a> for banking operations reference.
       `,
     },
     prism: {

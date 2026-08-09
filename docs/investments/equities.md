@@ -19,7 +19,7 @@ Equities represent ownership stakes in companies. Banks facilitate equity invest
 | P/E Ratio | Price-to-Earnings ratio; share price divided by earnings per share |
 | Bid / Ask | Best available buy price and sell price in the market |
 | Lot Size | Minimum tradeable unit (e.g. 1 lot = 100 shares on SGX) |
-| Settlement | Transfer of shares and cash; T+2 for most markets |
+| Settlement | Transfer of shares and cash on the market's applicable settlement cycle |
 | Corporate Action | Events affecting share structure (dividends, rights, splits, etc.) |
 
 ## 🏦 Bank's Role
@@ -38,14 +38,14 @@ Equities represent ownership stakes in companies. Banks facilitate equity invest
 2. Bank routes order to exchange (e.g. SGX, NYSE, HKEX) via direct market access or broker network
 3. Order matched at exchange; trade confirmed with execution price and quantity
 4. Trade booked to client account; shares held in nominee/custodian account
-5. Settlement on T+2: cash debited from client account, shares credited to custody account
+5. Settlement occurs on the applicable market cycle: cash is debited and shares are credited through the custody chain
 6. Trade confirmation sent to client
 
 **Sell Order**
 
 1. Client instructs sell; bank verifies sufficient shares in custody
 2. Order routed to exchange; matched at execution price
-3. Shares debited from custody account on T+2
+3. Shares debited from the custody account on the applicable settlement date
 4. Cash proceeds credited to client account (net of brokerage commission and charges)
 5. Contract note issued
 
@@ -93,8 +93,8 @@ Yield = 0.12 / 3.20 x 100 = 3.75%
 
 - Client suitability assessment before trading complex or leveraged products
 - Know Your Customer (KYC) and Customer Due Diligence (CDD) at account opening
-- Short-selling rules: naked short-selling prohibited on SGX; covered short-selling requires uptick rule compliance
+- Short sales on SGX must comply with applicable marking, reporting, settlement and market-conduct requirements
 - Insider trading controls: watch list and restricted list maintained; pre-clearance required for designated persons
-- MAS Notice SFA04-N12 and Securities and Futures Act (SFA) govern securities dealing
+- Securities dealing is subject to the Securities and Futures Act, applicable MAS requirements and SGX rules
 - Trade surveillance for market manipulation, front-running, and wash trading
 - Margin accounts subject to daily mark-to-market and automated margin call triggers

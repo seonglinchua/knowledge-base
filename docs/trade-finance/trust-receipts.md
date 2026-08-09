@@ -13,7 +13,7 @@ A Trust Receipt (TR) is a short-term trade finance facility that allows a bank's
 
 | Term | Definition |
 |---|---|
-| Trust Receipt | Legal document where customer acknowledges holding goods/documents on behalf of the bank |
+| Trust Receipt | Financing and security document under which the customer receives documents or goods subject to agreed obligations to the bank |
 | TR Tenor | Repayment period — typically 30, 60, or 90 days |
 | TR Limit | Credit facility cap on the total TR outstanding at any time |
 | Goods Financing | TR used to finance inventory before goods are sold |
@@ -77,6 +77,6 @@ Rollover fee may apply (bank-specific policy)
 - AML screening on trade counterparties and countries involved
 - Over/under-invoicing checks: invoice price verified against market benchmarks for commodity TRs
 - MAS Notice 626 compliance: customer KYC and CDD maintained and updated
-- TR agreements signed and archived; copies retained for minimum 5 years
-- Non-performing TRs (overdue > 90 days) classified as non-performing advances; provisioning applied
+- TR agreements and supporting records retained under applicable legal, AML/CFT and institutional requirements
+- Overdue TRs classified and provisioned under the applicable accounting, prudential and credit-classification framework
 - Regularisation: overdue TRs escalated to credit risk management within defined SLA

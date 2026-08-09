@@ -14,8 +14,8 @@ PayNow is Singapore's peer-to-peer fund transfer service that allows individuals
 - Real-time credit, 24/7/365.
 - Transfers using proxy identifiers instead of account numbers.
 - SGD only; no cross-currency support.
-- No fee for retail customers (bank policy may vary for corporate).
-- Governed by MAS and operated under the ABS PayNow framework.
+- Fees and transaction limits are determined by the participating institution.
+- Operated under the banking industry's PayNow framework using the FAST infrastructure.
 - Supports both retail (PayNow Personal) and corporate (PayNow Corporate) participants.
 
 ## 🪪 Supported Proxy Types
@@ -25,8 +25,7 @@ PayNow is Singapore's peer-to-peer fund transfer service that allows individuals
 | NRIC / FIN | Individuals | Singapore national ID or foreign ID number |
 | Mobile Number | Individuals | Singapore (+65) mobile number |
 | UEN | Businesses | Unique Entity Number assigned by ACRA |
-| VPA | Individuals / Businesses | Virtual Payment Address (e.g. email-style handle) |
-| PayNow QR | Both | QR code encoding proxy and amount for point-of-sale |
+| VPA | Eligible non-bank financial institution customers | Virtual Payment Address issued under the participating institution's service |
 
 ## 🛠️ Operational Workflow
 
@@ -56,14 +55,12 @@ PayNow QR follows the Singapore Quick Response Code (SGQR) standard, which conso
 
 ## 🧮 Example
 
-**Scenario**: Finance team pays a freelancer SGD 2,500 using their UEN.
+**Illustrative scenario**: A finance team pays a registered business SGD 2,500 using its UEN.
 
-- Initiating bank: DBS (payer's corporate account)
-- Proxy entered: UEN 202312345A
-- Registry lookup resolves to: OCBC account 123-456789-001
-- Credit time: ~3 seconds
-- Fee to payer: SGD 0
-- Beneficiary notified by OCBC push notification
+- The payer enters the beneficiary's registered UEN.
+- The payer verifies the beneficiary name returned before authorising the transfer.
+- The beneficiary account is normally credited almost immediately, subject to screening and system availability.
+- Any fee is determined by the payer's financial institution.
 
 ## 📋 Compliance & Monitoring
 

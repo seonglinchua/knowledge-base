@@ -1,7 +1,7 @@
 ---
 id: mm-deals
 title: Money Market Deals
-sidebar_label: MM Deals
+sidebar_label: Money Market Deals
 slug: /treasury-ops/mm-deals
 ---
 
@@ -42,23 +42,22 @@ Money market deals are short-term borrowing and lending transactions between fin
 
 ## 🧮 Example Calculation
 
-**Scenario**: SGD 20,000,000 placed with a counterparty bank for 7 days at SORA + 15 bps.
+**Illustrative scenario**: SGD 20,000,000 is placed with a counterparty bank for seven days at a fixed all-in rate of 3.20% p.a.
 
-SORA Rate (overnight) = 3.05%
-All-in rate = 3.05% + 0.15% = **3.20% p.a.**
+The all-in rate is assumed for illustration; an actual SORA-linked transaction must use the agreed observation, compounding and spread conventions.
 
 Interest = Principal × Rate × Days / 365
 = 20,000,000 × 3.20% × 7 / 365
-= **SGD 12,274.52**
+= **SGD 12,273.97**
 
-Total Maturity Proceeds = SGD 20,000,000 + SGD 12,274.52 = **SGD 20,012,274.52**
+Total maturity proceeds = SGD 20,000,000 + SGD 12,273.97 = **SGD 20,012,273.97**
 
 ## 📋 Compliance & Monitoring
 
 - Counterparty credit limits reviewed and approved annually by credit committee
 - Intraday and overnight exposure tracked against limits; breaches escalated immediately
-- Daily liquidity coverage ratio (LCR) and net stable funding ratio (NSFR) reporting to MAS
-- All MM deals reported to MAS trade repository under MAS Notice SFA 04-N02
+- LCR and NSFR monitored internally and reported to MAS at the frequency applicable to the institution
+- Derivatives and other reportable transactions reported where they fall within the scope of applicable MAS reporting requirements
 - Interest rate risk: sensitivity of MM book to rate movements monitored via PV01
 - SORA publication monitored daily — discrepancies from expected levels flagged to risk
 - Nostro and settlement account reconciliation performed end of each business day

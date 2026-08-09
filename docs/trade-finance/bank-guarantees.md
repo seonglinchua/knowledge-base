@@ -37,7 +37,7 @@ A Bank Guarantee (BG) is an irrevocable undertaking by a bank to pay a specified
 4. BG wording reviewed by bank's legal/trade team; standardised wording used or reviewed if bespoke
 5. BG issued — delivered to beneficiary directly (counter-signed hard copy) or via SWIFT MT760 (for bank-to-bank)
 6. BG recorded as contingent liability on bank's books; limit utilised
-7. BG expires on stated expiry date; limit released if no demand received
+7. At expiry, cancellation and limit release are processed according to the guarantee terms, governing rules and residual-risk procedures
 8. If demand received: bank validates demand is compliant; pays beneficiary; seeks reimbursement from applicant
 
 ## 🧮 BG Fee Calculations
@@ -56,13 +56,9 @@ Commission = 1,000,000 x 0.01 x (365/360) = SGD 10,139
 
 **Contingent Liability Capital Charge (simplified)**
 ```
-Risk-Weighted Amount = BG Amount x CCF x Risk Weight
+Risk-weighted amount depends on the exposure measure, applicable credit conversion factor, counterparty risk weight and recognised credit-risk mitigation.
 
-CCF (Credit Conversion Factor): 100% for financial guarantees, 50% for performance guarantees
-Risk Weight: based on counterparty rating (e.g. 100% for unrated corporates)
-
-Example: Financial BG SGD 1M, risk weight 100%
-RWA = 1,000,000 x 100% x 100% = SGD 1,000,000
+The regulatory-capital function must apply the prevailing rules to the specific guarantee; a universal 100% or 50% factor should not be assumed.
 ```
 
 ## ⚠️ Demand Under a BG
@@ -74,7 +70,7 @@ A BG demand is valid if:
 - Does not exceed the BG amount
 
 **On-Demand vs. Conditional BG**
-- **On-Demand**: Bank pays on compliant demand without needing to verify the underlying default. Most BGs are on-demand.
+- **On-Demand**: The bank examines the demand against the guarantee terms without determining the underlying contractual dispute.
 - **Conditional**: Bank requires proof of default before paying. Less common; slower resolution.
 
 **Injunction Risk**: Applicant may seek court injunction to stop payment if they dispute the demand. Bank should seek legal advice immediately if injunction is threatened.
@@ -87,5 +83,5 @@ A BG demand is valid if:
 - Country risk: BGs issued in favour of beneficiaries in high-risk jurisdictions subject to enhanced due diligence
 - BG wording reviewed to ensure demand conditions are clear and bank is not exposed to unlimited/open-ended liability
 - All issued BGs tracked in trade finance system with expiry monitoring and automated alerts
-- Expired BGs: original returned by beneficiary for cancellation; if original not returned, hold-over risk managed
-- Records retained for minimum 5 years post-expiry
+- Expired guarantees are closed only when the bank's legal and operational release conditions are satisfied; return of an original may not by itself determine expiry
+- Records retained under applicable legal, AML/CFT and institutional retention requirements

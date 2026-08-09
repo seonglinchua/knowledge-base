@@ -7,43 +7,47 @@ slug: /loans/revolving-credit
 
 # Revolving Credit
 
-Revolving credit is a type of credit that allows the borrower to draw, repay, and redraw funds up to a specified limit.
+Revolving credit allows a borrower to draw, repay, and redraw funds up to an approved credit limit.
 
-## 🔁 Key Characteristics
+## Key Characteristics
 
-- Credit limit is predefined.
-- Flexible withdrawals and repayments.
-- Interest is charged only on the amount utilized.
-- Often used in corporate banking and personal lines of credit.
+- The credit limit is agreed in advance.
+- The borrower may withdraw and repay funds within the approved limit.
+- Interest is charged only on the amount utilised.
+- Revolving credit is commonly used for corporate working capital and personal credit facilities.
 
-## 🧾 Common Products
+## Common Products
 
-| Product Name         | Description                               |
-|----------------------|-------------------------------------------|
-| Overdraft Facility   | Linked to current accounts.               |
-| Credit Card Facility | Standard consumer revolving credit.       |
-| Trade Finance Line   | Used for international trade transactions.|
+| Product | Description |
+|---|---|
+| Overdraft facility | Provides credit linked to a current account. |
+| Credit card facility | Provides revolving credit for eligible consumer transactions. |
+| Trade finance line | Supports eligible international trade transactions. |
 
-## 🛠️ Operational Workflow
+## Operational Workflow
 
-1. Credit assessment and approval
-2. Facility setup in core banking system
-3. Usage monitoring (daily balance check)
-4. Interest calculation during billing cycle
-5. Statement generation and customer notification
+1. Assess the borrower's creditworthiness and approve the facility.
+2. Set up the approved facility in the core banking system.
+3. Monitor utilisation and daily account balances.
+4. Calculate interest during each billing cycle.
+5. Generate the account statement and notify the customer.
 
-## 🧮 Example Calculation
+## Example Calculation
 
-**Scenario**: Credit limit is SGD 50,000. Borrower draws SGD 20,000 for 10 days.
+**Scenario:** A borrower draws SGD 20,000 at an annual interest rate of 6% for 10 days. The facility uses an ACT/365 day-count convention.
 
-Interest = Principal × Rate × Days / 365
-= 20,000 × 6% × 10 / 365
-≈ SGD 32.88
+$$
+\text{Interest}
+= \text{Principal} \times \text{Annual rate} \times \frac{\text{Days}}{365}
+$$
 
-## 📋 Compliance & Monitoring
+$$
+= 20{,}000 \times 0.06 \times \frac{10}{365}
+\approx \text{SGD }32.88
+$$
 
-- Regular review of credit exposure
-- Daily limit breach alerting
-- Monthly compliance report to risk team
+## Compliance and Monitoring
 
----
+- Review the credit exposure regularly.
+- Monitor and escalate daily limit breaches.
+- Submit monthly compliance reports to the risk team.

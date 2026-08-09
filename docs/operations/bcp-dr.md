@@ -1,7 +1,7 @@
 ---
 id: bcp-dr
 title: Business Continuity & Disaster Recovery
-sidebar_label: BCP & DR
+sidebar_label: BCP & Disaster Recovery
 slug: /operations/bcp-dr
 ---
 
@@ -29,16 +29,16 @@ Business Continuity Planning (BCP) and Disaster Recovery (DR) ensure that a bank
 
 | Tier | RTO | RPO | Examples |
 |---|---|---|---|
-| Tier 1 (Critical) | < 4 hours | < 1 hour | Core banking, MEPS+/FAST payments, internet banking |
-| Tier 2 (Important) | < 24 hours | < 4 hours | Trade finance, wealth management platform, corporate internet banking |
-| Tier 3 (Normal) | < 72 hours | < 24 hours | Reporting systems, HR, internal tools |
+| Tier 1 (Critical) | Institution-defined | Institution-defined | Core banking and critical payment services |
+| Tier 2 (Important) | Institution-defined | Institution-defined | Important customer and operational services |
+| Tier 3 (Normal) | Institution-defined | Institution-defined | Supporting and internal services |
 
 ## 🛠️ BCP Activation Workflow
 
 **Minor Disruption (Technology / Process Failure)**
 
 1. Incident reported to IT Service Desk and Business Continuity Officer (BCO)
-2. Incident assessed against BCP trigger criteria (e.g. system unavailable > 30 minutes)
+2. Incident assessed against documented severity and BCP trigger criteria
 3. If triggered: BCP team activated; workaround procedures invoked (manual processing, backup channels)
 4. Stakeholders notified: management, affected business units, customer communications if required
 5. Recovery actions tracked; system restored within RTO
@@ -81,17 +81,17 @@ Manual fallback: hold payments in queue; release when system restored
 
 | Test Type | Frequency | Scope |
 |---|---|---|
-| Tabletop Exercise | Annually | CMT and department BCOs walk through scenarios |
-| Component DR Test | Annually | Individual system failover tested in isolation |
-| Full DR Failover | Every 2 years (minimum) | All Tier 1 systems failed over to DR site simultaneously |
-| Staff Alternate Site Test | Annually | Staff work from backup site for 1+ business day |
-| Call Tree / Communication Test | Semi-annually | Emergency contact lists verified and tested |
+| Tabletop Exercise | Risk-based schedule | CMT and department BCOs walk through scenarios |
+| Component DR Test | Approved test schedule | Individual system recovery tested in isolation |
+| Critical-System Recovery Test | At least annually where required | Recovery capability and established RTO validated |
+| Staff Alternate-Site Test | Approved test schedule | Staff validate alternate-site or remote-working arrangements |
+| Call Tree / Communication Test | Approved test schedule | Emergency contact lists verified and tested |
 
 ## 📋 Regulatory Requirements
 
 - MAS Technology Risk Management Guidelines: DR requirements for systems supporting critical banking services
 - MAS Business Continuity Management Guidelines: BCP framework, testing frequency, CMT structure
-- MAS Incident Reporting: Significant technology incidents must be reported within 1 hour of declaration; full report within 14 days
-- MAS Notice 124: Outsourced service providers must also have BCP/DR arrangements; bank must audit these
-- Annual BCP attestation submitted to MAS confirming testing was completed
-- Board Technology Risk Committee reviews BCP/DR test results and approves recovery strategies
+- Qualifying system malfunctions and IT security incidents must be notified to MAS within the applicable timeframe, including the one-hour notification requirement where the relevant notice applies
+- Outsourcing arrangements must include appropriate continuity, recovery, oversight and exit controls
+- Test evidence, deficiencies and remediation actions must be documented and available for supervisory review
+- The board and senior management oversee resilience according to the institution's governance framework

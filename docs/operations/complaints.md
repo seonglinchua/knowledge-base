@@ -7,7 +7,7 @@ slug: /operations/complaints
 
 # Customer Complaints & Grievance
 
-Customer complaints management covers the intake, investigation, resolution, and reporting of complaints raised by retail and corporate banking customers. All banks in Singapore are required to have a formal complaints handling process under MAS guidelines.
+Customer complaints management covers the intake, investigation, resolution and reporting of complaints raised by retail and corporate banking customers. Institutions should maintain an effective process appropriate to their business, customers and applicable conduct requirements.
 
 ## 📌 Complaint Categories
 
@@ -27,7 +27,7 @@ Customer complaints management covers the intake, investigation, resolution, and
 
 1. Complaint received via branch, call centre, email, online form, or written letter
 2. Front-line staff logs complaint in CRM system with full details: customer ID, date/time, channel, nature of complaint, and supporting documents
-3. Acknowledgement sent to customer within 1 business day (MAS requirement)
+3. Acknowledgement sent within the institution's documented service standard
 4. Complaint assigned to owning department (e.g. Operations, Retail Banking, Wealth) based on category
 
 **Stage 2 — Investigation**
@@ -39,7 +39,7 @@ Customer complaints management covers the intake, investigation, resolution, and
 
 **Stage 3 — Resolution & Response**
 
-1. Resolution communicated to customer within SLA (target 5–10 business days; complex cases up to 21 days)
+1. Resolution communicated within the applicable regulatory timeframe or the institution's documented service standard
 2. If resolved in customer's favour: corrective action executed (refund, reversal, compensation)
 3. If not resolved in customer's favour: rationale explained clearly in writing; customer advised of escalation options
 4. Case closed in CRM with resolution code and root cause category
@@ -54,17 +54,17 @@ Customer complaints management covers the intake, investigation, resolution, and
 
 | Complaint Type | Acknowledgement | Resolution Target |
 |---|---|---|
-| Simple service complaints | 1 business day | 5 business days |
-| Transaction disputes | 1 business day | 10 business days |
-| Investment mis-selling | 1 business day | 21 business days |
-| Regulatory / Legal | 1 business day | Per regulatory timeline |
+| Simple service complaints | Internal target | Internal target |
+| Transaction disputes | Internal target | Applicable dispute rules and internal target |
+| Investment or advisory complaints | Internal target | Based on complexity and applicable requirements |
+| Regulatory / Legal | Applicable requirement | Applicable requirement |
 
 ## 📊 Reporting & Governance
 
 - Monthly complaints dashboard reported to senior management: volume by category, SLA adherence, recurring themes
 - Quarterly complaints trend analysis presented to Board Risk Committee
 - Systemic issues (same root cause appearing across multiple complaints) escalated to process owners for remediation
-- Annual MAS complaints return submitted with aggregate data on complaints received and resolved
+- Regulatory complaints data submitted where required for the institution and business activity
 - FIDReC cases tracked separately; outcomes and costs reported to Legal and Compliance
 
 ## 📋 Compliance Requirements
@@ -72,5 +72,5 @@ Customer complaints management covers the intake, investigation, resolution, and
 - MAS Guidelines on Fair Dealing (FAA): banks must handle complaints fairly, promptly, and transparently
 - MAS Notice on Unsecured Credit (for card disputes): specific timelines for investigation of unauthorised transactions
 - Personal Data Protection Act (PDPA): customer data accessed during investigation must be handled appropriately; no unauthorised disclosure
-- Banks must maintain complaint records for a minimum of 5 years
+- Complaint records retained under applicable legal, regulatory and institutional retention requirements
 - All staff involved in complaint handling must complete annual training on complaints procedures

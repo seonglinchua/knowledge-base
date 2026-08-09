@@ -21,7 +21,7 @@ Asset-Liability Management (ALM) is the process of managing the structural balan
 
 ## 🏛️ Governance Structure
 
-- **ALCO** (Asset-Liability Committee): Chaired by CFO or CEO; sets ALM policy and limits; meets monthly
+- **ALCO** (Asset-Liability Committee): Governed by the bank's approved terms of reference; sets ALM policy and limits and meets at the defined frequency
 - **Treasury ALM Desk**: Executes hedges, manages the structural book, monitors limits daily
 - **Risk Management**: Independent oversight; measures and reports IRRBB and liquidity metrics
 - **Internal Audit**: Periodic review of ALM framework and controls
@@ -31,7 +31,7 @@ Asset-Liability Management (ALM) is the process of managing the structural balan
 **Monthly ALCO Cycle**
 
 1. Treasury compiles balance sheet projection — expected loan growth, deposit runoff, new funding
-2. Risk prepares IRRBB reports: NII sensitivity, EVE sensitivity under rate shock scenarios (+/-100bps, +/-200bps)
+2. Risk prepares IRRBB reports: NII and EVE sensitivity under prescribed and internal interest-rate shock scenarios
 3. Liquidity reports prepared: LCR, NSFR, internal stress tests
 4. ALCO reviews reports, approves limit utilisation, and decides on hedging actions
 5. Decisions documented in ALCO minutes; actions tracked to completion
@@ -81,7 +81,7 @@ RSA = SGD 10B, RSL = SGD 12B → Gap = -SGD 2B (liability-sensitive)
 ```
 NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) x 100%
 
-MAS minimum requirement: >= 100%
+The applicable regulatory minimum and transitional treatment depend on the institution and current MAS requirements.
 
 ASF: Stable deposits, long-term debt, capital
 RSF: Loans, investments, undrawn commitments
@@ -89,8 +89,8 @@ RSF: Loans, investments, undrawn commitments
 
 ## 📋 Regulatory Requirements
 
-- MAS Notice 637 (Basel III): LCR minimum 100%, NSFR minimum 100%
-- MAS Notice 757: Interest Rate Risk in the Banking Book (IRRBB) — outlier test threshold 15% of Tier 1 capital
+- Applicable MAS liquidity requirements, including LCR and NSFR requirements for institutions within scope
+- Applicable MAS and Basel IRRBB requirements, including prescribed supervisory shock scenarios and outlier tests
 - Internal limits set by ALCO for NII sensitivity, EVE sensitivity, and repricing gaps
-- Stress testing conducted quarterly; results reported to Board Risk Committee
+- Stress-testing frequency and escalation follow the approved risk-management framework
 - Transfer pricing framework: Treasury charges/credits business units for funding costs and benefits

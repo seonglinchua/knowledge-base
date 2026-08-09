@@ -15,7 +15,7 @@ GIRO (General Interbank Recurring Order) is Singapore's electronic interbank pay
 - Supports both direct debit (pull) and direct credit (push) transactions.
 - Widely used for recurring payments: utilities, insurance premiums, mortgage instalments, income tax.
 - Operated by Banking Computer Services (BCS).
-- Settlement occurs via MAS MEPS+ on the next business day (T+1).
+- Processing and settlement timing depend on the submission cycle, participating banks, and applicable non-business days.
 - Governed by ABS GIRO Operating Procedures.
 
 ## 🧾 Transaction Types
@@ -24,8 +24,7 @@ GIRO (General Interbank Recurring Order) is Singapore's electronic interbank pay
 |---|---|---|
 | Direct Debit | Pull from payer | Utility bills, insurance premiums, loan repayments |
 | Direct Credit | Push to payee | Payroll, CPF contributions, government grants |
-| GIRO Deduction Authority | Pull authorisation | Standing instruction set up by payer with biller |
-| Interbank GIRO (IBG) | Push (customer-initiated) | One-time bank transfers (slower, lower cost alternative to FAST) |
+| GIRO Deduction Authority | Authorisation | Mandate permitting an approved billing organisation to initiate direct debits |
 
 ## 🛠️ Operational Workflow
 
@@ -36,27 +35,26 @@ GIRO (General Interbank Recurring Order) is Singapore's electronic interbank pay
 3. File submitted to BCS for interbank routing
 4. Receiving (debiting) bank processes debit against customer accounts
 5. Failed transactions (insufficient funds, account closed) returned to originating bank
-6. Net settlement via MEPS+ on T+1
+6. Interbank obligations settled under the GIRO processing timetable
 7. Biller receives credit advice and exception report
 
 ## 🧮 Example Calculation
 
-**Scenario**: Monthly mortgage GIRO deduction of SGD 3,200 submitted on 25th of the month.
+**Illustrative scenario**: A monthly mortgage GIRO deduction of SGD 3,200 is submitted for processing on the 25th of the month.
 
 | Timeline | Event |
 |---|---|
-| 25th, 11:59 PM | Biller submits batch debit file |
-| 26th, 02:00 AM | BCS processes and routes to debiting bank |
-| 26th, 06:00 AM | Debiting bank applies debit to customer account |
-| 26th, 09:00 AM | Settlement via MEPS+ |
-| 26th, 10:00 AM | Exception report for failed debits returned to biller |
+| Before the applicable cut-off | Biller submits the batch debit file |
+| Processing cycle | File is validated and routed to the debiting bank |
+| Value date | Debit is attempted and interbank obligations are settled |
+| After processing | Biller receives the outcome and exception report |
 
-Return rate target: < 0.5% of transactions
+Actual cut-off times, value dates and return handling depend on the participating bank and billing arrangement.
 
 ## 📋 Compliance & Monitoring
 
-- GIRO deduction authority forms retained for minimum 5 years post-termination
-- Unauthorised debit dispute resolution within 10 business days (ABS guidelines)
+- GIRO mandates and transaction records retained in accordance with applicable law and the institution's retention policy
+- Unauthorised debit disputes investigated under the participating bank's complaint and dispute procedures
 - Daily balancing of GIRO credits and debits against BCS settlement reports
 - Failed transaction (return) rate monitored; high return rates may result in biller suspension
 - AML screening on large GIRO credit batches before processing

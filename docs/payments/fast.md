@@ -14,9 +14,8 @@ FAST (Fast And Secure Transfers) is Singapore's real-time interbank fund transfe
 - Real-time credit (typically within seconds) to the beneficiary account.
 - Available 24/7/365, including public holidays.
 - Supports SGD transfers only between participating FAST member banks.
-- Transaction limits vary by bank; individual transfers capped at SGD 200,000 per transaction (standard retail limit).
-- No transfer fee for most retail customers (bank-specific policy).
-- Operated by Banking Computer Services (BCS) and governed by MAS.
+- Transaction limits and fees are set by each participating institution and customer channel.
+- Operated by Banking Computer Services (BCS), a designated payment system operator regulated by MAS.
 
 ## 🧾 Supported Transfer Types
 
@@ -24,8 +23,6 @@ FAST (Fast And Secure Transfers) is Singapore's real-time interbank fund transfe
 |---|---|
 | Account-to-Account | Direct transfer using recipient's bank account number |
 | PayNow (via FAST rails) | Transfer using NRIC, mobile number, UEN, or VPA |
-| GIRO via FAST | Near-real-time GIRO credits processed over FAST |
-| Corporate Payroll | Batch salary payments credited in real-time |
 
 ## 🛠️ Operational Workflow
 
@@ -35,17 +32,16 @@ FAST (Fast And Secure Transfers) is Singapore's real-time interbank fund transfe
 4. BCS routes instruction to receiving bank in real-time
 5. Receiving bank applies credit to beneficiary account
 6. Confirmation returned to initiating bank and customer notified
-7. Net settlement between banks occurs at end of day via MAS MEPS+
+7. Interbank obligations are settled through the scheme's settlement arrangements
 
 ## 🧮 Example Calculation
 
-**Scenario**: Customer transfers SGD 5,000 at 11:45 PM on a Sunday.
+**Illustrative scenario**: A customer transfers SGD 5,000 at 11:45 PM on a Sunday.
 
 - Instruction submitted: 23:45
-- BCS processing time: ~2 seconds
-- Beneficiary account credited: 23:45:02
-- Settlement between banks: next MEPS+ settlement cycle (T+0 intraday or T+1 morning)
-- Customer fee: SGD 0 (waived for retail)
+- Beneficiary account credited: normally almost immediately, subject to screening and system availability
+- Interbank settlement: processed under the FAST settlement timetable
+- Customer fee: determined by the initiating institution
 - FX conversion: Not applicable (SGD only)
 
 ## 📋 Compliance & Monitoring

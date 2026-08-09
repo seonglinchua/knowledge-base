@@ -24,7 +24,7 @@ A Letter of Credit (LC) is a bank-issued instrument that guarantees payment to a
 
 | Type | Description |
 |---|---|
-| Sight LC | Payment due immediately upon presentation of compliant documents |
+| Sight LC | Payment due at sight after the nominated or issuing bank determines that the presentation complies |
 | Usance (Tenor) LC | Deferred payment — e.g. 60 days, 90 days after sight or bill of lading date |
 | Revolving LC | Reinstates automatically for repeat shipments |
 | Transferable LC | Beneficiary can transfer LC rights to a third party (e.g. supplier) |
@@ -41,7 +41,7 @@ A Letter of Credit (LC) is a bank-issued instrument that guarantees payment to a
 4. Advising bank authenticates LC and delivers to beneficiary
 5. Beneficiary ships goods and presents documents (bill of lading, invoice, packing list, certificate of origin, etc.) to negotiating/advising bank
 6. Presenting bank examines documents for compliance with LC terms (5 business day window under UCP 600)
-7. Compliant documents forwarded to issuing bank via SWIFT MT750/MT754
+7. Documents and any related advice are forwarded to the issuing bank through the agreed channel
 8. Issuing bank re-examines documents; if compliant, pays beneficiary (or accepts draft for usance LC)
 9. Issuing bank releases documents to applicant upon payment or acceptance
 10. Applicant uses documents to take delivery of goods from shipping company
@@ -86,4 +86,4 @@ Discrepant documents: presenting bank notifies issuing bank; issuing bank seeks 
 - Over/under-invoicing red flags reviewed against market price benchmarks
 - Know Your Customer (KYC) and Customer Due Diligence (CDD) on applicant
 - Compliance with MAS Notice 626 (AML/CFT) and Monetary Authority of Singapore regulations
-- Documentation archived for minimum 5 years
+- Documentation retained under applicable AML/CFT, legal and institutional retention requirements

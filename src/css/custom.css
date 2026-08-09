@@ -6,6 +6,66 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --ifm-heading-font-family: var(--ifm-font-family-base);
+  --ifm-font-size-base: 100%;
+
+  /* Knowledge Base design system */
+  --kb-font-size-display: 3.5rem;
+  --kb-font-size-display-tablet: 2.6rem;
+  --kb-font-size-display-mobile: 2.2rem;
+  --kb-font-size-section-title: 2rem;
+  --kb-font-size-stat: 1.75rem;
+  --kb-font-size-hero-body: 1.05rem;
+  --kb-font-size-card-title: 1.1rem;
+  --kb-font-size-body: 1rem;
+  --kb-font-size-body-sm: 0.9rem;
+  --kb-font-size-topic: 0.88rem;
+  --kb-font-size-label: 0.75rem;
+
+  --kb-space-1: 0.25rem;
+  --kb-space-2: 0.5rem;
+  --kb-space-3: 0.75rem;
+  --kb-space-4: 1rem;
+  --kb-space-6: 1.5rem;
+  --kb-space-8: 2rem;
+  --kb-space-12: 3rem;
+  --kb-space-16: 4rem;
+
+  --kb-radius-sm: 4px;
+  --kb-radius-md: 8px;
+  --kb-radius-lg: 10px;
+  --kb-radius-xl: 12px;
+  --kb-radius-pill: 999px;
+
+  --kb-motion-fast: 0.2s;
+  --kb-motion-standard: 0.25s;
+  --kb-motion-slow: 0.3s;
+  --kb-ease-standard: ease;
+  --kb-focus-on-dark: #fbbf24;
+  --kb-focus-on-light: var(--ifm-color-primary);
+
+  --kb-navbar-bg: #ffffff;
+  --kb-navbar-border: #e2e8f0;
+
+  --kb-hero-text: #ffffff;
+  --kb-hero-text-muted: #d6def0;
+  --kb-hero-badge-text: #e0e7ff;
+  --kb-hero-badge-bg: rgba(99, 102, 241, 0.28);
+  --kb-hero-badge-border: rgba(199, 210, 254, 0.65);
+  --kb-hero-card-bg: rgba(255, 255, 255, 0.11);
+  --kb-hero-card-border: rgba(255, 255, 255, 0.24);
+  --kb-hero-card-hover-bg: rgba(255, 255, 255, 0.18);
+  --kb-hero-card-hover-border: rgba(147, 197, 253, 0.85);
+  --kb-hero-icon: #93c5fd;
+  --kb-hero-arrow: #bfdbfe;
+
+  --kb-footer-bg: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  --kb-footer-title: #f1f5f9;
+  --kb-footer-link: #cbd5e1;
+  --kb-footer-divider: #475569;
   --ifm-color-primary: #3b82f6;
   --ifm-color-primary-dark: #2563eb;
   --ifm-color-primary-darker: #1e40af;
@@ -15,6 +75,32 @@
   --ifm-color-primary-lightest: #dbeafe;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Custom page tokens — light mode */
+  --custom-stats-bg: #f8fafc;
+  --custom-stats-border: #e2e8f0;
+  --custom-stat-number: #1e40af;
+  --custom-stat-label: #64748b;
+
+  --custom-section-bg: #ffffff;
+  --custom-section-title: #1e293b;
+  --custom-section-subtitle: #64748b;
+
+  --custom-card-bg: #ffffff;
+  --custom-card-border: #e2e8f0;
+  --custom-card-shadow: rgba(0, 0, 0, 0.04);
+  --custom-card-hover-border: #3b82f6;
+  --custom-card-hover-shadow: rgba(59, 130, 246, 0.12);
+  --custom-card-title: #1e293b;
+  --custom-card-desc: #64748b;
+  --custom-card-footer-border: #f1f5f9;
+  --custom-card-count: #64748b;
+  --custom-card-arrow: #3b82f6;
+
+  --custom-hero-background:
+    radial-gradient(ellipse at 78% 35%, rgba(59, 130, 246, 0.18) 0%, transparent 52%),
+    linear-gradient(135deg, #0b1220 0%, #172554 56%, #1e3a8a 100%);
+  --custom-hero-bottom-border: transparent;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,17 +113,51 @@
   --ifm-color-primary-lighter: #bfdbfe;
   --ifm-color-primary-lightest: #dbeafe;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --kb-navbar-bg: #111827;
+  --kb-navbar-border: rgba(96, 165, 250, 0.14);
+
+  /* Custom page tokens — dark mode */
+  --custom-stats-bg: #18191b;
+  --custom-stats-border: #2e2e32;
+  --custom-stat-number: #60a5fa;
+  --custom-stat-label: #94a3b8;
+
+  --custom-section-bg: #1b1b1d;
+  --custom-section-title: #e2e8f0;
+  --custom-section-subtitle: #94a3b8;
+
+  --custom-card-bg: #242526;
+  --custom-card-border: #2e2e32;
+  --custom-card-shadow: rgba(0, 0, 0, 0.25);
+  --custom-card-hover-border: #60a5fa;
+  --custom-card-hover-shadow: rgba(96, 165, 250, 0.15);
+  --custom-card-title: #e2e8f0;
+  --custom-card-desc: #94a3b8;
+  --custom-card-footer-border: #2e2e32;
+  --custom-card-count: #94a3b8;
+  --custom-card-arrow: #60a5fa;
+
+  --custom-hero-background:
+    radial-gradient(ellipse at 78% 35%, rgba(96, 165, 250, 0.1) 0%, transparent 52%),
+    linear-gradient(135deg, #060b14 0%, #0f172a 58%, #172554 100%);
+  --custom-hero-bottom-border: rgba(255, 255, 255, 0.07);
+}
+
+.navbar {
+  background: var(--kb-navbar-bg);
+  border-bottom: 1px solid var(--kb-navbar-border);
 }
 
 /* Footer Improvements */
 .footer {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  background: var(--kb-footer-bg) !important;
   border-top: 3px solid var(--ifm-color-primary);
 }
 
 .footer__title {
   font-weight: 700 !important;
-  color: #f1f5f9 !important;
+  color: var(--kb-footer-title) !important;
   margin-bottom: 1rem !important;
 }
 
@@ -46,8 +166,11 @@
 }
 
 .footer__link-item {
-  color: #cbd5e1 !important;
-  transition: all 0.2s ease !important;
+  display: inline-block;
+  color: var(--kb-footer-link) !important;
+  transition:
+    color var(--kb-motion-fast) var(--kb-ease-standard),
+    transform var(--kb-motion-fast) var(--kb-ease-standard) !important;
 }
 
 .footer__link-item:hover {
@@ -56,8 +179,14 @@
   transform: translateX(4px);
 }
 
+.footer__link-item:focus-visible {
+  border-radius: 3px;
+  outline: 3px solid var(--ifm-color-primary-light);
+  outline-offset: 3px;
+}
+
 .footer__bottom {
-  border-top: 1px solid #475569;
+  border-top: 1px solid var(--kb-footer-divider);
   padding-top: 1.5rem;
   margin-top: 2rem;
 }
@@ -65,8 +194,13 @@
 /* Button Improvements */
 .button {
   font-weight: 600;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+  border-radius: var(--kb-radius-md);
+  transition:
+    background-color var(--kb-motion-slow) var(--kb-ease-standard),
+    border-color var(--kb-motion-slow) var(--kb-ease-standard),
+    color var(--kb-motion-slow) var(--kb-ease-standard),
+    box-shadow var(--kb-motion-slow) var(--kb-ease-standard),
+    transform var(--kb-motion-slow) var(--kb-ease-standard);
 }
 
 .button--secondary {
@@ -80,4 +214,34 @@
   color: #ffffff;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+}
+
+.navbar__link:focus-visible,
+.navbar__brand:focus-visible,
+.navbar__toggle:focus-visible,
+.navbar__items button:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+}
+
+[data-theme='dark'] .button--secondary {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .button--secondary:hover {
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer__link-item {
+    transition: none !important;
+  }
+
+  .footer__link-item:hover {
+    transform: none;
+  }
 }

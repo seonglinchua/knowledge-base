@@ -121,7 +121,7 @@ A reference guide to key terms used across the Banking Operations Knowledge Base
 
 ## L
 
-**LCR (Liquidity Coverage Ratio)** — HQLA ÷ Total Net Cash Outflows over 30 days. Must be ≥ 100% under Basel III. Ensures banks hold sufficient liquid assets.
+**LCR (Liquidity Coverage Ratio)** — Stock of HQLA divided by total net cash outflows over a 30-day stress period. The applicable minimum and scope depend on current regulatory requirements.
 
 **LEI (Legal Entity Identifier)** — A 20-character alphanumeric code that uniquely identifies a legal entity participating in financial transactions.
 
@@ -149,7 +149,7 @@ A reference guide to key terms used across the Banking Operations Knowledge Base
 
 **NPL (Non-Performing Loan)** — A loan where the borrower has not made scheduled payments for 90 days or more. Also referred to as NPA (Non-Performing Asset).
 
-**NSFR (Net Stable Funding Ratio)** — Available Stable Funding ÷ Required Stable Funding. Must be ≥ 100%. Ensures banks maintain stable long-term funding.
+**NSFR (Net Stable Funding Ratio)** — Available Stable Funding divided by Required Stable Funding. The applicable minimum and scope depend on current regulatory requirements.
 
 ---
 
@@ -163,9 +163,9 @@ A reference guide to key terms used across the Banking Operations Knowledge Base
 
 ## P
 
-**pacs.008** — An ISO 20022 MX message (Financial Institution Credit Transfer) that replaces the SWIFT MT103 for cross-border customer payments.
+**pacs.008** — The ISO 20022 FI-to-FI Customer Credit Transfer message used between financial institutions for customer credit transfers.
 
-**PayNow** — Singapore's peer-to-peer funds transfer service that uses mobile number, NRIC, UEN, or VPA as a proxy for bank account numbers, operating over FAST rails.
+**PayNow** — Singapore's proxy-based funds-transfer service, operating over FAST. Supported proxy types depend on the customer and participating institution.
 
 **PEP (Politically Exposed Person)** — An individual who holds or has held a prominent public position. Subject to enhanced due diligence under AML regulations.
 
@@ -187,7 +187,7 @@ A reference guide to key terms used across the Banking Operations Knowledge Base
 
 **SHA (Shared Charges)** — A SWIFT charge instruction where each bank in the payment chain deducts its own fees. The beneficiary receives the amount minus intermediary charges.
 
-**SORA (Singapore Overnight Rate Average)** — The volume-weighted average rate of overnight unsecured SGD interbank transactions. The MAS-endorsed benchmark rate replacing SOR.
+**SORA (Singapore Overnight Rate Average)** — The volume-weighted average rate of unsecured overnight interbank SGD transactions in Singapore, administered and published by MAS.
 
 **STR (Suspicious Transaction Report)** — A mandatory report filed with STRO when a bank suspects that a transaction may be related to money laundering or terrorism financing.
 
@@ -209,7 +209,7 @@ A reference guide to key terms used across the Banking Operations Knowledge Base
 
 ## U
 
-**UETR (Unique End-to-End Transaction Reference)** — A 36-character UUID assigned to each SWIFT GPI payment for end-to-end tracking across the correspondent banking chain.
+**UETR (Unique End-to-End Transaction Reference)** — A 36-character UUID used to identify and track eligible Swift payment messages across the correspondent-banking chain.
 
 ---
 

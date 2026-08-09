@@ -24,7 +24,7 @@ The Relationship Manager (RM) is the primary point of contact between the bank a
 |---|---|---|
 | SME Banking | Small and medium enterprises | Term loans, trade finance, CASA |
 | Corporate Banking | Large corporates and MNCs | Syndicated loans, FX, cash management |
-| Private Banking | HNW individuals (AUM > SGD 2M) | Investments, structured products, mortgages |
+| Private Banking | High-net-worth clients meeting the institution's segment criteria | Investments, structured products, lending and wealth-planning services |
 | Retail Banking | Mass market individuals | Home loans, credit cards, deposits |
 
 ## 🛠️ Client Onboarding Workflow
@@ -36,7 +36,7 @@ The Relationship Manager (RM) is the primary point of contact between the bank a
 5. **Account opening approval**: Branch manager or compliance approves account opening
 6. **Account setup**: Core banking system account creation; internet banking, cheque book, debit card issued
 7. **Product onboarding**: RM presents and onboards client to relevant products (loans, FX, investments)
-8. **Periodic review**: Annual KYC refresh; account activity review; updated financials collected
+8. **Periodic review**: Risk-based KYC review and event-driven updates; account activity and relevant financial information reviewed
 
 ## 🧮 Example: Credit Proposal Preparation
 
@@ -54,9 +54,9 @@ The Relationship Manager (RM) is the primary point of contact between the bank a
 ## 📋 Compliance & Monitoring
 
 - All client interactions and recommendations documented in CRM system
-- KYC documents refreshed at least annually for standard risk; semi-annually for high-risk clients
+- KYC information kept current using risk-based review cycles and event-driven reviews
 - MAS FAA requirements: suitability assessment mandatory before recommending investment products
-- Gifts and entertainment policy: all gifts > SGD 50 declared; no gifts from clients under active credit review
+- Gifts and entertainment handled under the institution's declaration, approval and conflict-of-interest thresholds
 - Conflict of interest: RMs must declare any personal relationships with clients or counterparties
 - Revenue targets must not override suitability obligations — mis-selling escalated to compliance immediately
 - Annual mandatory training: AML/CFT, product knowledge, MAS conduct requirements

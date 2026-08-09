@@ -1,7 +1,7 @@
 ---
 id: loan-ops
 title: Loan Operations
-sidebar_label: Loan Ops
+sidebar_label: Loan Operations
 slug: /operations/loan-ops
 ---
 
@@ -51,21 +51,21 @@ Monthly EMI = P × [r(1+r)^n] / [(1+r)^n − 1]
 Where: P = 200,000, r = 6.5%/12 = 0.5417%, n = 36 months
 
 EMI = 200,000 × [0.005417 × (1.005417)^36] / [(1.005417)^36 − 1]
-≈ **SGD 6,132.87/month**
+≈ **SGD 6,129.80/month**
 
 | Month | Opening Balance | Interest | Principal | Closing Balance |
 |---|---|---|---|---|
-| 1 | 200,000.00 | 1,083.33 | 5,049.54 | 194,950.46 |
-| 2 | 194,950.46 | 1,055.98 | 5,076.89 | 189,873.57 |
+| 1 | 200,000.00 | 1,083.33 | 5,046.47 | 194,953.53 |
+| 2 | 194,953.53 | 1,056.00 | 5,073.80 | 189,879.73 |
 | ... | ... | ... | ... | ... |
-| 36 | 6,099.66 | 33.21 | 6,099.66 | 0.00 |
+| 36 | 6,096.78 | 33.02 | 6,096.78 | 0.00 |
 
 ## 📋 Compliance & Monitoring
 
 - Maker-checker control mandatory for all disbursements and material amendments
-- Non-performing loan (NPL) classification: 90 days past due triggers NPA status (MAS Notice 612)
-- Collateral valuation updated at least annually; re-valuation triggered by market events
+- Credit classification considers days past due together with applicable accounting, prudential and qualitative criteria
+- Collateral valuation frequency follows the asset type, risk profile, policy and applicable requirements
 - Insurance policies (fire, mortgage reducing) monitored for renewal; lapse triggers force-placed insurance
-- All loan documents retained for minimum 5 years post-account closure
+- Loan documents retained under applicable legal, AML/CFT and institutional retention requirements
 - Monthly portfolio report submitted to credit risk management: ageing, NPL ratio, watchlist accounts
-- MAS MAS Notice 632 compliance: credit card and unsecured credit limits within prescribed multiples
+- Applicable MAS requirements for unsecured credit and credit cards applied to products and borrowers within scope

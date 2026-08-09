@@ -18,7 +18,13 @@ const sidebars = {
   docs: [
     {
       type: 'category',
-      label: 'Loans',
+      label: 'Loans & Credit',
+      link: {
+        type: 'generated-index',
+        title: 'Loans & Credit',
+        description: 'Credit products, lending structures, calculations, and operating procedures.',
+        slug: '/loans',
+      },
       items: [
         'loans/revolving-credit',
         'loans/term-loan',
@@ -28,29 +34,30 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Investments',
-      items: [
-        'investments/bond-investments',
-        'investments/structured-products',
-        'investments/wealth-management',
-        'investments/equities',
-        'investments/unit-trusts',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Payments',
+      link: {
+        type: 'generated-index',
+        title: 'Payments',
+        description: 'Domestic and international payment systems, message standards, and operating controls.',
+        slug: '/payments',
+      },
       items: [
+        'payments/fast',
+        'payments/paynow',
+        'payments/giro',
         'payments/swift-mt103',
         'payments/swift-mx-pacs008',
-        'payments/fast',
-        'payments/giro',
-        'payments/paynow',
       ],
     },
     {
       type: 'category',
       label: 'Treasury Operations',
+      link: {
+        type: 'generated-index',
+        title: 'Treasury Operations',
+        description: 'Foreign exchange, money markets, liquidity, and balance-sheet management procedures.',
+        slug: '/treasury-operations',
+      },
       items: [
         'treasury-ops/fx-deals',
         'treasury-ops/mm-deals',
@@ -62,6 +69,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Trade Finance',
+      link: {
+        type: 'generated-index',
+        title: 'Trade Finance',
+        description: 'Documentary trade products, guarantees, settlement, and examination procedures.',
+        slug: '/trade-finance',
+      },
       items: [
         'trade-finance/letters-of-credit',
         'trade-finance/trust-receipts',
@@ -70,7 +83,30 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Investments',
+      link: {
+        type: 'generated-index',
+        title: 'Investments',
+        description: 'Investment products, suitability, valuation, and wealth-management operations.',
+        slug: '/investments',
+      },
+      items: [
+        'investments/equities',
+        'investments/bond-investments',
+        'investments/unit-trusts',
+        'investments/structured-products',
+        'investments/wealth-management',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Operations',
+      link: {
+        type: 'generated-index',
+        title: 'Operations',
+        description: 'Customer, credit, compliance, complaints, and business-continuity processes.',
+        slug: '/operations',
+      },
       items: [
         'operations/rm-process',
         'operations/loan-ops',
@@ -82,6 +118,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Reference',
+      link: {
+        type: 'generated-index',
+        title: 'Reference',
+        description: 'Banking terminology, formulas, ratios, and calculation references.',
+        slug: '/reference',
+      },
       items: [
         'reference/glossary',
         'reference/formulas',

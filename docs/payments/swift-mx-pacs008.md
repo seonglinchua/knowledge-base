@@ -7,17 +7,17 @@ slug: /payments/swift-mx-pacs008
 
 # SWIFT MX pacs.008
 
-The pacs.008 (Financial Institution Credit Transfer) is an ISO 20022 MX message that replaces the legacy SWIFT MT103 for cross-border customer credit transfers. It carries significantly richer structured data, enabling better AML compliance, faster straight-through processing, and improved end-to-end payment transparency.
+The pacs.008 (FI-to-FI Customer Credit Transfer) is an ISO 20022 MX message used between financial institutions for customer credit transfers. It carries richer structured data that can improve screening, straight-through processing, reconciliation, and payment transparency.
 
 ## 🔄 Key Characteristics
 
 - Based on ISO 20022 XML schema — structured, rich data format.
-- Replaces MT103 as part of SWIFT's global migration (completed November 2025 for cross-border payments).
+- Is the principal ISO 20022 message for in-scope cross-border customer credit transfers following the end of coexistence in November 2025.
 - Supports all currencies and payment corridors via correspondent banking.
 - LEI (Legal Entity Identifier) can be included for institutional parties.
-- Enables full structured address fields (vs. free-text in MT103).
+- Supports structured, hybrid and permitted unstructured address data according to the applicable implementation phase and usage guidelines.
 - Interoperable with domestic ISO 20022 systems (e.g., TIPS in Europe, CIPS in China).
-- Coexists with MT103 during migration via SWIFT's translation service.
+- Limited contingency conversion and defined scope exceptions may apply under Swift's post-migration roadmap.
 
 ## 📝 Key Message Elements
 
@@ -53,18 +53,18 @@ The pacs.008 (Financial Institution Credit Transfer) is an ISO 20022 MX message 
 | Feature | MT103 | pacs.008 |
 |---|---|---|
 | Format | SWIFT FIN (proprietary) | ISO 20022 XML |
-| Address fields | Free text (4 lines) | Structured (street, city, country) |
+| Address fields | Primarily free-text options | Structured or permitted hybrid data under current usage guidelines |
 | IBAN support | Optional | Native element |
 | LEI support | Not supported | Supported |
-| Remittance data | 4 lines free text | Structured or unstructured (140 chars) |
+| Remittance data | Limited free text | Richer structured and unstructured elements, subject to usage guidelines |
 | End-to-end tracking | Limited | SWIFT GPI UETR native |
 | Data richness | Limited | High |
 
 ## 📋 Compliance & Monitoring
 
-- All structured party fields (Debtor, Creditor) mandatory — cannot be free text or incomplete
-- UETR (Unique End-to-End Transaction Reference) mandatory in all GPI messages for tracking
-- Real-time status updates required under SWIFT GPI SLA (credit confirmation within agreed window)
+- Mandatory data elements and address formats follow the applicable CBPR+ usage guidelines and implementation date
+- UETR and tracking requirements are applied where required by the relevant Swift service and message flow
+- Status and confirmation messages are handled under the applicable service rules
 - Sanctions screening on structured address data enables more accurate matching vs. MT103 free text
 - ISO 20022 data quality monitored — truncation or unstructured fields flagged as exceptions
 - MAS payment data requirements met via structured Debtor/Creditor elements (MAS Notice 626)

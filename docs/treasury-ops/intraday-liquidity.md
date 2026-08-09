@@ -16,8 +16,8 @@ Intraday liquidity management ensures a bank has sufficient liquid funds at ever
 | Intraday Liquidity | Cash or liquid assets available within the business day to fund payments |
 | MEPS+ | MAS Electronic Payment System — Singapore's RTGS for interbank SGD settlements |
 | RTGS | Real-Time Gross Settlement — each payment settled individually and immediately |
-| Nostro Account | Bank's SGD account held at MAS (used for MEPS+ settlements) |
-| Daylight Overdraft | Intraday credit extended by MAS to banks against eligible collateral |
+| Settlement Account | Bank's SGD account used to settle obligations in MEPS+ |
+| Intraday Liquidity Facility | Eligible intraday liquidity made available under the payment system's rules and collateral arrangements |
 | Queue Management | Ordering and releasing queued payments to optimise liquidity use |
 | Gridlock | Situation where banks cannot settle because each is waiting for another to pay first |
 | Peak Liquidity Demand | Time of day when outgoing payment volumes are highest |
@@ -29,7 +29,7 @@ Intraday liquidity management ensures a bank has sufficient liquid funds at ever
 | Opening balance | SGD balance in MAS MEPS+ account at start of day |
 | Incoming FAST/MEPS+ receipts | Payments received from other banks throughout the day |
 | Maturing placements | Interbank or MAS bills maturing intraday |
-| Repo / collateral | Collateral pledged to MAS for daylight overdraft facility |
+| Eligible collateral or secured funding | Liquidity raised under available central-bank or market facilities |
 | FX swap proceeds | SGD leg receipts from FX swaps settling intraday |
 
 ## 🛠️ Intraday Monitoring Workflow
@@ -38,7 +38,7 @@ Intraday liquidity management ensures a bank has sufficient liquid funds at ever
 
 1. Treasury operations reviews projected intraday cash flow: expected receipts vs. outgoing payments
 2. Confirm opening MEPS+ balance; compare against projected peak demand
-3. Pre-fund MEPS+ account if opening balance is insufficient (via reverse repo with MAS or interbank borrowing)
+3. Pre-fund the settlement account if projected liquidity is insufficient, using an approved funding source
 4. Queue critical high-value payments for early release
 
 **During the Day**
@@ -47,13 +47,13 @@ Intraday liquidity management ensures a bank has sufficient liquid funds at ever
 2. Priority payments (correspondent bank settlements, large corporate payments) released first
 3. Queue management: hold lower-priority payments if liquidity is tight; release when inflows received
 4. Escalate to Treasury dealer if position breaches internal intraday warning threshold
-5. Utilise daylight overdraft facility (if needed) by pledging eligible collateral to MAS
+5. Use available intraday liquidity facilities, where eligible and permitted
 
 **End of Day**
 
-1. All MEPS+ queued items must be settled before system close (typically 6:00 PM SGT for customer payments; 8:00 PM for interbank)
-2. Residual daylight overdraft must be repaid before MEPS+ close
-3. Treasury locks in overnight position; excess funds placed in MAS Standing Facility or interbank overnight
+1. Resolve or cancel queued items before the applicable payment-system cut-off
+2. Repay intraday credit before the applicable deadline
+3. Treasury establishes the required overnight position using approved facilities or market transactions
 4. EOD reconciliation: MEPS+ statement vs. internal nostro ledger
 5. Intraday liquidity report filed for management and regulatory reporting
 
@@ -80,18 +80,18 @@ Example:
 Peak window: 09:00–10:00 → pre-fund accordingly
 ```
 
-**Daylight Overdraft Usage**
+**Illustrative collateral capacity**
 ```
-Max intraday overdraft = Eligible collateral pledged x applicable haircut
+Available secured liquidity = Eligible collateral pledged × (1 − applicable haircut)
 
 Example: SGD T-bills pledged SGD 600M, haircut 2%
-Max overdraft = SGD 600M x (1 - 0.02) = SGD 588M
+Available secured liquidity = SGD 600M × (1 − 0.02) = SGD 588M
 ```
 
 ## 📋 Regulatory Requirements
 
-- Basel III intraday liquidity monitoring tools (BCBS 248): banks must monitor and report intraday liquidity positions
+- BCBS 248 intraday liquidity monitoring tools apply to internationally active banks, with national supervisors determining broader application
 - MAS expects banks to maintain robust intraday liquidity frameworks with documented stress scenarios
 - Internal intraday liquidity limits approved by ALCO; breaches reported to Treasury Head and Risk
-- Intraday liquidity data included in monthly liquidity risk reporting to senior management
+- Intraday liquidity data reported internally and to supervisors at the applicable frequency
 - Business Continuity Plan (BCP) must address intraday liquidity failures — including contingency access to MAS Standing Facility

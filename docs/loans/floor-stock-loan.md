@@ -7,52 +7,53 @@ slug: /loans/floor-stock-loan
 
 # Floor Stock Loan
 
-A floor stock loan is a specialized financing facility that allows dealers and retailers to purchase inventory from manufacturers, with the inventory serving as collateral for the loan.
+A floor stock loan is a specialised financing facility that allows dealers and retailers to purchase inventory from manufacturers, with the financed inventory serving as collateral.
 
-## 🏪 Key Characteristics
+## Key Characteristics
 
 - Inventory-based financing for dealers and retailers.
 - Stock serves as primary collateral for the loan.
 - Flexible disbursement based on stock requirements.
-- Interest charged on utilized amount only.
+- Interest is charged only on the amount utilised.
 - Commonly used in automotive, electronics, and consumer goods sectors.
 
-## 🧾 Common Products
+## Common Products
 
 | Product Name              | Description                                      |
 |---------------------------|--------------------------------------------------|
 | Auto Dealer Finance       | For car dealerships to stock vehicles.          |
 | Electronics Floor Plan    | For electronics retailers and distributors.     |
-| Consumer Goods Financing  | For FMCG dealers and retail outlets.           |
+| Consumer Goods Financing  | For fast-moving consumer goods dealers and retail outlets. |
 | Machinery Floor Stock     | For heavy equipment and machinery dealers.       |
 
-## 🛠️ Operational Workflow
+## Operational Workflow
 
-1. Dealer registration and credit assessment
-2. Stock audit and valuation by approved valuers
-3. Facility sanctioning and documentation
-4. Purchase order verification and manufacturer confirmation
-5. Direct payment to manufacturer or reimbursement to dealer
-6. Regular stock audits and compliance monitoring
+1. Register the dealer and assess its creditworthiness.
+2. Audit and value the eligible stock using approved valuers where required.
+3. Approve and document the facility.
+4. Verify the purchase order and obtain manufacturer confirmation.
+5. Pay the manufacturer directly or reimburse the dealer in accordance with the facility terms.
+6. Conduct periodic stock audits and compliance monitoring.
 
-## 🧮 Example Calculation
+## Example Calculation
 
-**Scenario**: Dealer requires SGD 500,000 floor stock limit for automotive inventory. Interest rate: 10% per annum.
+**Scenario:** A dealer has an approved floor stock limit of SGD 500,000 and utilises SGD 300,000 for 30 days at an annual interest rate of 10%. The facility uses an ACT/365 day-count convention.
 
-Monthly Interest = Outstanding Amount × Annual Rate / 12
-If SGD 300,000 utilized for 30 days:
-Interest = 300,000 × 10% × 30 / 365
-≈ SGD 2,466
+$$
+\text{Interest}
+= 300{,}000 \times 0.10 \times \frac{30}{365}
+\approx \text{SGD }2{,}465.75
+$$
 
-**Stock Rotation**: Target 60-day average stock holding period.
+**Illustrative stock-rotation target:** 60-day average stock-holding period. The applicable target depends on the facility terms and bank policy.
 
-## 📋 Compliance & Monitoring
+## Compliance and Monitoring
 
-- Monthly physical stock verification
-- Real-time stock movement tracking
-- Insurance coverage monitoring for pledged stock
-- Dealer sales performance review
-- Quarterly facility utilization analysis
-- Stock aging report and slow-moving inventory alerts
+- Verify the physical stock at the frequency required by the facility terms.
+- Track stock movements using the available inventory records and monitoring systems.
+- Monitor insurance coverage for pledged stock.
+- Review the dealer's sales performance.
+- Analyse facility utilisation periodically.
+- Review stock-ageing reports and investigate slow-moving inventory.
 
 ---

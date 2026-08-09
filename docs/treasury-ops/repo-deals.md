@@ -13,7 +13,7 @@ A repurchase agreement (repo) is a form of short-term secured borrowing where on
 
 - Economically equivalent to a collateralised loan — the seller receives cash; the buyer holds securities as collateral.
 - The seller is said to do a **repo** (borrowing cash); the buyer is doing a **reverse repo** (lending cash).
-- Collateral is typically high-quality liquid assets (HQLA): government bonds, MAS bills.
+- Collateral commonly includes government securities and other assets permitted by the agreement and the institution's eligibility schedule.
 - Haircut applied to collateral value to absorb price volatility risk.
 - Short-term tenors: overnight to 3 months (term repos can extend to 1 year).
 - Governed by Global Master Repurchase Agreement (GMRA) between counterparties.
@@ -52,10 +52,10 @@ A repurchase agreement (repo) is a form of short-term secured borrowing where on
 
 ## 📋 Compliance & Monitoring
 
-- All repo counterparties must have a signed GMRA in place before trading
-- Collateral eligibility checked daily — only MAS-approved HQLA accepted
+- Repo counterparties must have the required legal documentation, commonly a GMRA, before trading
+- Collateral eligibility and valuation checked under the agreement and approved collateral schedule
 - Daily mark-to-market of collateral; margin calls issued if value drops below maintenance threshold
-- Repo positions reported to MAS trade repository under MAS Notice SFA 04-N02
-- Concentration risk: no single collateral issuer to exceed 25% of total repo book
+- Transactions reported where they fall within applicable MAS reporting requirements
+- Concentration risk monitored against approved issuer, asset and wrong-way-risk limits
 - Open repos reviewed daily — early termination option exercised if counterparty risk deteriorates
-- Repo book contributes to LCR calculation: reverse repos as HQLA, repos as secured funding
+- LCR treatment depends on transaction tenor, counterparty, collateral, encumbrance and the institution's ability to monetise the asset

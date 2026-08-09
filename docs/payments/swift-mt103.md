@@ -16,7 +16,7 @@ The MT103 is a SWIFT standard message type used to instruct a cross-border singl
 - Supports both serial (payment travels through chain of intermediaries) and cover payment methods.
 - STP (Straight-Through Processing) flag (`/STP`) enables automated processing at receiving banks.
 - Carries full ordering customer and beneficiary customer details for AML compliance.
-- Being phased out in favour of ISO 20022 MX messages (pacs.008) by November 2025 under SWIFT's migration roadmap.
+- For in-scope cross-border payments, the coexistence period ended in November 2025. Limited contingency conversion and defined exceptions may still apply under Swift's current roadmap.
 
 ## 📝 Key Message Fields
 
@@ -31,7 +31,7 @@ The MT103 is a SWIFT standard message type used to instruct a cross-border singl
 | Beneficiary Customer | :59: or :59A: | Payee IBAN / account and name |
 | Details of Charges | :71A: | `OUR`, `BEN`, or `SHA` |
 | Remittance Information | :70: | Payment reference / invoice details |
-| Regulatory Reporting | :77B: | AML / OFAC regulatory fields |
+| Regulatory Reporting | :77B: | Regulatory reporting information where applicable |
 
 ## 🛠️ Operational Workflow
 
@@ -53,17 +53,17 @@ The MT103 is a SWIFT standard message type used to instruct a cross-border singl
 |---|---|
 | Transfer amount | SGD 50,000 |
 | Exchange rate | 1 USD = 1.3450 SGD |
-| USD amount sent | USD 37,175.09 |
+| USD amount before charges | USD 37,174.72 |
 | Sending bank fee (local) | SGD 30.00 |
 | Correspondent bank charge | USD 15.00 (deducted from amount, SHA) |
-| Net amount received by beneficiary | USD 37,160.09 |
-| SWIFT message generated | :32A: 260522USD37175,09 |
+| Illustrative net amount received | USD 37,159.72, assuming only the stated deduction |
+| Value/amount field | Must use the actual value date and correctly formatted currency amount |
 
 ## 📋 Compliance & Monitoring
 
 - All MT103 messages screened against OFAC, UN, MAS, and EU sanctions lists before transmission
-- SWIFT Customer Security Programme (CSP) mandatory attestation annually
-- Nostro account reconciliation daily — unmatched entries escalated within 24 hours
-- Payment investigations (MT195/MT199) tracked to resolution within 5 business days
-- Retention of all SWIFT messages for minimum 5 years (MAS Notice 626)
+- Swift Customer Security Programme controls and attestation requirements applied according to the institution's Swift connectivity
+- Nostro accounts reconciled under the institution's reconciliation and escalation procedures
+- Payment investigations tracked under documented service standards
+- Messages and supporting records retained under applicable AML/CFT, legal and institutional retention requirements
 - Wire transfer data requirements per MAS Notice 626 (ordering and beneficiary information mandatory)

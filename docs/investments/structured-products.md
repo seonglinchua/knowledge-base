@@ -14,7 +14,7 @@ Structured products are pre-packaged investment instruments that combine a tradi
 - Capital can be fully or partially protected depending on structure.
 - Returns are linked to an underlying asset (equities, FX, interest rates, commodities).
 - Fixed investment tenor with defined payoff at maturity.
-- Suitable for clients seeking enhanced yield with controlled risk.
+- May be suitable only for clients who understand and can bear the product's market, liquidity, issuer and potential principal-loss risks.
 - Issued by financial institutions; subject to counterparty risk.
 
 ## 🧾 Common Products
@@ -31,7 +31,7 @@ Structured products are pre-packaged investment instruments that combine a tradi
 
 1. Client suitability assessment (risk profile, investment objectives)
 2. Product term sheet generation and pricing from structuring desk
-3. Client advisory and disclosure of key risks (PDPA, MAS FAA requirements)
+3. Client advisory, suitability assessment and disclosure of material product risks and conflicts
 4. Client acceptance and subscription confirmation
 5. Trade booking in investment system (linked to underlying derivative leg)
 6. Settlement and confirmation issuance
@@ -40,15 +40,15 @@ Structured products are pre-packaged investment instruments that combine a tradi
 
 ## 🧮 Example Calculation
 
-**Scenario**: DCI — SGD 100,000 deposit for 1 month, linked to USD/SGD at strike 1.3500. Spot rate at maturity: 1.3600.
+**Illustrative scenario**: A one-month SGD 100,000 DCI has a USD/SGD conversion strike of 1.3500. Assume the product terms require conversion into USD when the fixing is 1.3600. Coupon or yield is excluded from this simplified conversion example.
 
-Since USD/SGD at maturity (1.3600) > Strike (1.3500), deposit converts to USD:
+Under the stated payoff assumption, the investment converts to USD at the strike:
 
 USD Proceeds = SGD 100,000 / 1.3500 ≈ **USD 74,074**
 
 Enhanced yield (annualised) = 5.20% p.a. (vs standard SGD deposit of 3.80% p.a.)
 
-Net gain from higher yield offsets currency conversion risk — client accepts FX exposure in exchange for premium.
+The enhanced yield does not eliminate currency risk. The investor may suffer a loss when the converted proceeds are measured in the original currency.
 
 ## 📋 Risk Management & Monitoring
 
@@ -56,5 +56,5 @@ Net gain from higher yield offsets currency conversion risk — client accepts F
 - Mark-to-market valuation updates sent to client upon request
 - Credit exposure to issuer tracked under counterparty limits
 - MAS product suitability documentation retained for audit
-- Regulatory reporting under MAS Notice SFA 04-N12 for capital markets products
+- Regulatory reporting and conduct requirements applied according to the product, transaction and institution
 - Concentration limits per issuer and per underlying asset class

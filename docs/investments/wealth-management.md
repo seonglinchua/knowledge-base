@@ -35,7 +35,7 @@ Wealth management is a holistic advisory service that combines financial plannin
 4. Asset allocation recommendation by investment advisory team
 5. Portfolio construction and trade execution
 6. Monthly portfolio statements and performance reporting
-7. Periodic portfolio review (at least annually or upon material market events)
+7. Periodic portfolio review at the frequency agreed with the client and required by the service model
 8. Rebalancing trades to maintain target allocation within drift bands
 
 ## 🧮 Example Calculation
@@ -57,8 +57,8 @@ Net return to client = 5.45% p.a.
 
 - MAS FAA (Financial Advisers Act) suitability requirements for all recommendations
 - Customer Knowledge Assessment (CKA) for complex products
-- Annual KYC refresh for all HNW clients
+- KYC information kept current using a risk-based review cycle and event-driven reviews
 - Enhanced due diligence (EDD) for PEPs and clients from high-risk jurisdictions
 - Portfolio concentration limits enforced by risk management team
-- Performance benchmarked against agreed benchmark index (e.g., MSCI World, Bloomberg Barclays Agg)
-- All advisory conversations recorded and stored for regulatory audit trail
+- Performance measured against the benchmark agreed in the mandate, where applicable
+- Advice, client instructions and material communications documented and retained in accordance with applicable requirements and policy
